@@ -1,21 +1,62 @@
 "use client";
 
-import { useRef, useState, useCallback, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { gsap, ScrollTrigger } from "../../../utils/gsap";
 
 export function Header78() {
   const sectionRef = useRef(null);
   const imageRef = useRef(null);
-  const [cursor, setCursor] = useState({ x: 0, y: 0, active: false });
+  const cursorRef = useRef(null);
 
-  const handleMouseMove = useCallback((e) => {
-    if (!imageRef.current) return;
-    const rect = imageRef.current.getBoundingClientRect();
-    setCursor({ x: e.clientX - rect.left, y: e.clientY - rect.top, active: true });
-  }, []);
+  // Smooth cursor follow via gsap.ticker — no React state, no re-renders
+  useEffect(() => {
+    const section = sectionRef.current;
+    const cursorEl = cursorRef.current;
+    const imageEl = imageRef.current;
+    if (!section || !cursorEl || !imageEl) return;
 
-  const handleMouseLeave = useCallback(() => {
-    setCursor((c) => ({ ...c, active: false }));
+    let targetX = 0;
+    let targetY = 0;
+    let smoothX = 0;
+    let smoothY = 0;
+    let active = false;
+
+    const onMove = (e) => {
+      const rect = section.getBoundingClientRect();
+      targetX = e.clientX - rect.left;
+      targetY = e.clientY - rect.top;
+      if (!active) {
+        active = true;
+        smoothX = targetX;
+        smoothY = targetY;
+        cursorEl.style.opacity = "1";
+      }
+    };
+
+    const onLeave = () => {
+      active = false;
+      cursorEl.style.opacity = "0";
+      imageEl.style.clipPath = "circle(0px at 50% 50%)";
+    };
+
+    const tick = () => {
+      if (!active) return;
+      // Lerp smoothing — feels weighty but still responsive
+      smoothX += (targetX - smoothX) * 0.22;
+      smoothY += (targetY - smoothY) * 0.22;
+      cursorEl.style.transform = `translate3d(${smoothX}px, ${smoothY}px, 0) translate(-50%, -50%)`;
+      imageEl.style.clipPath = `circle(180px at ${smoothX}px ${smoothY}px)`;
+    };
+
+    section.addEventListener("mousemove", onMove);
+    section.addEventListener("mouseleave", onLeave);
+    gsap.ticker.add(tick);
+
+    return () => {
+      section.removeEventListener("mousemove", onMove);
+      section.removeEventListener("mouseleave", onLeave);
+      gsap.ticker.remove(tick);
+    };
   }, []);
 
   useEffect(() => {
@@ -78,8 +119,6 @@ export function Header78() {
       ref={sectionRef}
       className="relative min-h-screen overflow-hidden"
       style={{ cursor: "none" }}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
     >
       {/* ── Bild 1: Rohbau — vollflächiger Hintergrund ── */}
       <img
@@ -98,35 +137,40 @@ export function Header78() {
         }}
       />
 
-      {/* ── Bild 2: Fertig — Hover-Reveal ── */}
+      {/* ── Bild 2: Fertig — Hover-Reveal (clip-path driven directly via DOM) ── */}
       <img
         ref={imageRef}
         src="/images/bild2.png"
         alt="Fertiggestelltes Gebäude"
         className="absolute inset-0 h-full w-full object-cover object-center"
         style={{
-          clipPath: `circle(${cursor.active ? 180 : 0}px at ${cursor.x}px ${cursor.y}px)`,
-          transition: "clip-path 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+          clipPath: "circle(0px at 50% 50%)",
+          willChange: "clip-path",
         }}
       />
 
-      {/* Goldener Ring */}
+      {/* ── Custom Cursor: outer ring + inner dot ── */}
       <div
-        className="pointer-events-none absolute rounded-full border border-hoser-gold/75"
+        ref={cursorRef}
+        className="pointer-events-none absolute left-0 top-0 z-20 flex items-center justify-center"
         style={{
-          left: cursor.x,
-          top: cursor.y,
-          width: cursor.active ? 360 : 0,
-          height: cursor.active ? 360 : 0,
-          transform: "translate(-50%, -50%)",
-          opacity: cursor.active ? 1 : 0,
-          transition:
-            "width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.2s",
+          width: 48,
+          height: 48,
+          opacity: 0,
+          transition: "opacity 0.25s ease",
+          willChange: "transform",
         }}
-      />
+        aria-hidden="true"
+      >
+        {/* Outer ring */}
+        <span className="absolute inset-0 rounded-full border border-hoser-gold/85" />
+        {/* Inner dot */}
+        <span className="block h-1.5 w-1.5 rounded-full bg-hoser-gold" />
+      </div>
+
 
       {/* ── Text-Inhalt ── */}
-      <div className="relative z-10 flex min-h-screen flex-col justify-center px-[6%] py-32 md:max-w-[55%] lg:max-w-[50%]">
+      <div className="relative z-10 flex min-h-screen flex-col justify-start px-[6%] pt-28 pb-32 md:pt-32 lg:pt-36 md:max-w-[55%] lg:max-w-[50%]">
 
         {/* Eyebrow */}
         <div className="mb-8 flex items-center gap-4">
