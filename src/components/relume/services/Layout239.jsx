@@ -36,15 +36,11 @@ export function Layout239() {
       <div className="container">
         <div className="mb-12 max-w-2xl md:mb-18 lg:mb-20">
           <p className="mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-hoser-gold">
-            Leistungsspektrum
+            Unsere Leistungen auf einen Blick
           </p>
-          <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-text-primary md:text-5xl lg:text-6xl">
+          <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-text-primary md:text-5xl lg:text-6xl whitespace-nowrap">
             Fünf Gewerke. Ein Ansprechpartner.
           </h2>
-          <p className="font-body text-base leading-relaxed text-text-secondary md:text-lg">
-            Ob Neubau, Sanierung oder Spezialtiefbau – wir übernehmen Baumeisterarbeiten
-            aller Schwierigkeitsgrade mit geschultem Personal und eigenem Maschinenpark.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

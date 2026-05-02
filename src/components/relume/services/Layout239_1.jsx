@@ -13,12 +13,12 @@ export function Layout239_1() {
             <div className="w-full max-w-lg">
               <p className="mb-3 font-semibold md:mb-4">Prozess</p>
               <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-                From consultation to keys in hand
+                Von der ersten Besprechung bis zur Schlüsselübergabe
               </h2>
               <p className="md:text-md">
-                Every project follows the same disciplined path. We start with
-                listening, move through planning, build with precision, and
-                finish with care. Timelines are set in writing and met.
+                Jedes Projekt folgt demselben strukturierten Ablauf. Wir hören
+                zuerst zu, planen sorgfältig, bauen mit Präzision und übergeben
+                mit Sorgfalt. Termine werden schriftlich festgehalten und eingehalten.
               </p>
             </div>
           </div>
@@ -31,11 +31,11 @@ export function Layout239_1() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Initial consultation and site assessment
+                Erstgespräch und Grundstücksbesichtigung
               </h3>
               <p>
-                We understand your needs, walk the property, and establish
-                what's possible.
+                Wir nehmen uns Zeit für Ihre Wünsche, besichtigen das Grundstück
+                und klären gemeinsam, was möglich ist.
               </p>
             </div>
             <div className="flex w-full flex-col items-center text-center">
@@ -46,9 +46,9 @@ export function Layout239_1() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Design, planning, and fixed-price quote
+                Planung, Genehmigung und Festpreisangebot
               </h3>
-              <p>Detailed drawings, permits filed, costs locked in writing.</p>
+              <p>Detaillierte Pläne, Einreichung aller Genehmigungen, Kosten schriftlich fixiert.</p>
             </div>
             <div className="flex w-full flex-col items-center text-center">
               <div className="rb-6 mb-6 md:mb-8">
@@ -58,18 +58,18 @@ export function Layout239_1() {
                 />
               </div>
               <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Construction and regular progress updates
+                Bauausführung und regelmäßige Fortschrittsberichte
               </h3>
               <p>
-                Work proceeds on schedule with weekly reports and full
-                transparency.
+                Termingerechte Umsetzung mit wöchentlichen Berichten und
+                vollständiger Transparenz.
               </p>
             </div>
           </div>
           <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
             <Button variant="secondary">Anfragen</Button>
             <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              Projects
+              Projekte ansehen
             </Button>
           </div>
         </div>
