@@ -83,8 +83,8 @@ export function TeamSection() {
               alt={person.name}
               className="absolute inset-0 h-full w-full transition-transform duration-[1.2s] ease-out group-hover:scale-[1.03]"
               style={{
-                objectFit: "contain",
-                objectPosition: "center bottom",
+                objectFit: "cover",
+                objectPosition: "center 20%",
               }}
             />
 
