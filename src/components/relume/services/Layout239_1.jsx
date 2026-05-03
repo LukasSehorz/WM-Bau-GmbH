@@ -1,78 +1,91 @@
 "use client";
 
-import { Button } from "@relume_io/relume-ui";
 import React from "react";
-import { RxChevronRight } from "react-icons/rx";
+import liebherrLogo from "../../../assets/logos/liebherr.svg";
+import zeppelinLogo from "../../../assets/logos/zeppelin.svg";
+import hiltiLogo from "../../../assets/logos/hilti.svg";
+import heidelbergLogo from "../../../assets/logos/heidelberg.svg";
+
+const certifications = [
+  { label: "ISO 9001", sub: "Qualitätsmanagement" },
+  { label: "SCC**", sub: "Arbeitssicherheit" },
+  { label: "VOB", sub: "Vergabe & Vertragsordnung" },
+  { label: "DGNB", sub: "Nachhaltiges Bauen" },
+];
+
+const partners = [
+  { label: "PERI", logo: null },
+  { label: "Liebherr", logo: liebherrLogo },
+  { label: "Zeppelin", logo: zeppelinLogo },
+  { label: "Hilti", logo: hiltiLogo },
+  { label: "Knauf", logo: null },
+  { label: "Heidelberg Materials", logo: heidelbergLogo },
+];
 
 export function Layout239_1() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="bg-[#f0f0ef] px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container">
-        <div className="flex flex-col items-center">
-          <div className="rb-12 mb-12 text-center md:mb-18 lg:mb-20">
-            <div className="w-full max-w-lg">
-              <p className="mb-3 font-semibold md:mb-4">Prozess</p>
-              <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-                Von der ersten Besprechung bis zur Schlüsselübergabe
-              </h2>
-              <p className="md:text-md">
-                Jedes Projekt folgt demselben strukturierten Ablauf. Wir hören
-                zuerst zu, planen sorgfältig, bauen mit Präzision und übergeben
-                mit Sorgfalt. Termine werden schriftlich festgehalten und eingehalten.
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 items-start justify-center gap-y-12 md:grid-cols-3 md:gap-x-8 md:gap-y-16 lg:gap-x-12">
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-6 mb-6 md:mb-8">
-                <img
-                  src="/images/hero-aerial-construction.jpg"
-                  alt="Relume placeholder image"
-                />
-              </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Erstgespräch und Grundstücksbesichtigung
-              </h3>
-              <p>
-                Wir nehmen uns Zeit für Ihre Wünsche, besichtigen das Grundstück
-                und klären gemeinsam, was möglich ist.
-              </p>
-            </div>
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-6 mb-6 md:mb-8">
-                <img
-                  src="/images/villa-twilight.jpg"
-                  alt="Relume placeholder image"
-                />
-              </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Planung, Genehmigung und Festpreisangebot
-              </h3>
-              <p>Detaillierte Pläne, Einreichung aller Genehmigungen, Kosten schriftlich fixiert.</p>
-            </div>
-            <div className="flex w-full flex-col items-center text-center">
-              <div className="rb-6 mb-6 md:mb-8">
-                <img
-                  src="/images/team-blueprints.jpg"
-                  alt="Relume placeholder image"
-                />
-              </div>
-              <h3 className="mb-5 text-2xl font-bold md:mb-6 md:text-3xl md:leading-[1.3] lg:text-4xl">
-                Bauausführung und regelmäßige Fortschrittsberichte
-              </h3>
-              <p>
-                Termingerechte Umsetzung mit wöchentlichen Berichten und
-                vollständiger Transparenz.
-              </p>
-            </div>
-          </div>
-          <div className="mt-6 flex flex-wrap items-center gap-4 md:mt-8">
-            <Button variant="secondary">Anfragen</Button>
-            <Button iconRight={<RxChevronRight />} variant="link" size="link">
-              Projekte ansehen
-            </Button>
-          </div>
+
+        {/* Heading */}
+        <div className="mb-12 md:mb-16">
+          <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-hoser-gold">
+            Zertifikate & Partner
+          </p>
+          <h2
+            className="font-heading font-bold leading-tight tracking-tight text-[#0a1020]"
+            style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
+          >
+            Qualität, die man nachweisen kann.
+          </h2>
         </div>
+
+        {/* Certifications */}
+        <p className="mb-4 font-body text-xs font-semibold uppercase tracking-[0.2em] text-[#0a1020]/40">
+          Zertifizierungen
+        </p>
+        <div className="mb-10 grid grid-cols-2 gap-3 md:grid-cols-4">
+          {certifications.map((c) => (
+            <div
+              key={c.label}
+              className="flex flex-col items-center justify-center rounded-2xl bg-[#111827] px-6 py-8 text-center"
+            >
+              <span className="font-heading text-2xl font-bold text-white md:text-3xl">
+                {c.label}
+              </span>
+              <span className="mt-2 font-body text-xs text-white/40 tracking-wide">
+                {c.sub}
+              </span>
+            </div>
+          ))}
+        </div>
+
+        {/* Partners */}
+        <p className="mb-4 font-body text-xs font-semibold uppercase tracking-[0.2em] text-[#0a1020]/40">
+          Partner & Lieferanten
+        </p>
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
+          {partners.map((p) => (
+            <div
+              key={p.label}
+              className="flex items-center justify-center rounded-2xl bg-white px-6"
+              style={{ minHeight: "90px" }}
+            >
+              {p.logo ? (
+                <img
+                  src={p.logo}
+                  alt={p.label}
+                  style={{ maxHeight: "40px", width: "auto", maxWidth: "100%", display: "block" }}
+                />
+              ) : (
+                <span className="font-heading text-base font-bold text-[#111827] text-center">
+                  {p.label}
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );
