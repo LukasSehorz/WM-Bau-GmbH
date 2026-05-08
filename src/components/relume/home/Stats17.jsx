@@ -114,10 +114,10 @@ export function Stats17() {
 
           {/* Left */}
           <div>
-            <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#D94520] md:mb-4">
+            <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#0D1B2A] md:mb-4">
               Unsere Zahlen
             </p>
-            <h2 className="mb-5 font-heading text-5xl font-bold leading-tight tracking-tight text-[#D94520] md:mb-6 md:text-7xl lg:text-8xl">
+            <h2 className="mb-5 font-heading text-5xl font-bold leading-tight tracking-tight text-[#0D1B2A] md:mb-6 md:text-7xl lg:text-8xl">
               Ergebnisse,<br />die für sich sprechen
             </h2>
             <p className="font-body text-base text-[#0A1628]/65 md:text-lg">
