@@ -26,7 +26,7 @@ export function Header69() {
         <img
           src="/images/villa-twilight.jpg"
           className="size-full object-cover"
-          alt="Schmid-Bau GmbH"
+          alt="Baugeschäft GmbH Georg Härtl"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/50 to-black/20" />
       </div>

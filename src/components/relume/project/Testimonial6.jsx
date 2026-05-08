@@ -3,121 +3,79 @@
 import React from "react";
 import { BiSolidStar } from "react-icons/bi";
 
+const reviews = [
+  {
+    initial: "A",
+    name: "Angelika S.",
+    label: "Google Rezension, 5/5 Sterne",
+    quote:
+      "10 Sterne wenn möglich! Fachlich und menschlich großartig! Die Arbeiten werden fachgerecht und auf höchstem Niveau durchgeführt. Absolut empfehlenswert!",
+  },
+  {
+    initial: "C",
+    name: "Christian Wendelborn",
+    label: "Google Rezension, 5/5 Sterne",
+    quote:
+      "Die Rezension wird auf zwei Teile aufgeteilt, da sie sonst zu lange ist. Absolut professionelle Arbeit – wir sind rundum begeistert. Termintreue, Sauberkeit und Qualität auf höchstem Niveau. Sehr empfehlenswert!",
+  },
+  {
+    initial: "M",
+    name: "Manuela Hiermer",
+    label: "Google Rezension, 5/5 Sterne",
+    quote:
+      "Teil 2 der Rezension: Auch nach der Fertigstellung stand das Team jederzeit für Rückfragen zur Verfügung. Selten so einen guten Service erlebt – Härtl ist erste Wahl!",
+  },
+];
+
 export function Testimonial6() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28" style={{ backgroundColor: "#FDFCF8" }}>
       <div className="container">
         <div className="mb-12 w-full md:mb-18 lg:mb-20">
-          <h1 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-            What owners say
-          </h1>
-          <p className="md:text-md">
-            Real families, real results, real peace of mind
+          <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
+            Kundenstimmen
+          </p>
+          <h2
+            className="font-heading font-bold leading-tight tracking-tight text-[#0A1628]"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
+          >
+            Was Bauherren sagen.
+          </h2>
+          <p className="mt-4 font-body text-base text-[#0A1628]/60 md:text-lg">
+            Echte Erfahrungen – direkt von unseren Kunden.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-y-12 md:grid-cols-3 md:gap-x-8 lg:gap-x-12 lg:gap-y-16">
-          <div className="flex h-full max-w-lg flex-col items-start justify-start text-left">
-            <div className="mb-6 flex md:mb-8">
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-            </div>
-            <blockquote className="text-md font-bold leading-[1.4] md:text-xl">
-              "They built exactly what we imagined, on time and within budget.
-              No surprises, no excuses."
-            </blockquote>
-            <div className="mt-6 flex w-full flex-col md:mt-8 md:w-auto">
-              <div className="mb-4">
-                <img
-                  src="/images/hero-aerial-construction.jpg"
-                  alt="Testimonial avatar 1"
-                  className="size-14 min-h-14 min-w-14 rounded-full object-cover"
-                />
+
+        <div className="grid grid-cols-1 gap-y-12 md:grid-cols-3 md:gap-x-8 lg:gap-x-12">
+          {reviews.map((r) => (
+            <div key={r.name} className="flex h-full flex-col items-start justify-start text-left">
+              {/* Stars */}
+              <div className="mb-6 flex gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <BiSolidStar key={i} className="size-5 text-[#D94520]" />
+                ))}
               </div>
-              <div className="mb-3 md:mb-4">
-                <p className="font-semibold">Maria Hoffmann</p>
-                <p>Homeowner, Munich</p>
-              </div>
-              <div className="hidden w-px self-stretch bg-black md:block" />
-              <div>
-                <img
-                  src="/favicon.svg" style={{opacity:0}}
-                  alt="Webflow logo 1"
-                  className="max-h-12"
-                />
+
+              {/* Quote */}
+              <blockquote className="font-body text-base font-semibold leading-relaxed text-[#0A1628] md:text-lg">
+                "{r.quote}"
+              </blockquote>
+
+              {/* Reviewer */}
+              <div className="mt-6 flex items-center gap-3 md:mt-8">
+                <div
+                  className="flex size-12 shrink-0 items-center justify-center rounded-full font-heading text-base font-bold text-white"
+                  style={{ backgroundColor: "#D94520" }}
+                >
+                  {r.initial}
+                </div>
+                <div>
+                  <p className="font-body text-sm font-semibold text-[#0A1628]">{r.name}</p>
+                  <p className="font-body text-xs text-[#0A1628]/50">{r.label}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="flex h-full max-w-lg flex-col items-start justify-start text-left">
-            <div className="mb-6 flex md:mb-8">
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-            </div>
-            <blockquote className="text-md font-bold leading-[1.4] md:text-xl">
-              "We trusted them with our family's future. They delivered a home
-              we'll live in for decades."
-            </blockquote>
-            <div className="mt-6 flex w-full flex-col md:mt-8 md:w-auto">
-              <div className="mb-4">
-                <img
-                  src="/images/craftsmen-stone-facade.jpg"
-                  alt="Testimonial avatar 1"
-                  className="size-14 min-h-14 min-w-14 rounded-full object-cover"
-                />
-              </div>
-              <div className="mb-3 md:mb-4">
-                <p className="font-semibold">Klaus Bergmann</p>
-                <p>Homeowner, Augsburg</p>
-              </div>
-              <div className="hidden w-px self-stretch bg-black md:block" />
-              <div>
-                <img
-                  src="/favicon.svg" style={{opacity:0}}
-                  alt="Webflow logo 1"
-                  className="max-h-12"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex h-full max-w-lg flex-col items-start justify-start text-left">
-            <div className="mb-6 flex md:mb-8">
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-              <BiSolidStar className="size-6" />
-            </div>
-            <blockquote className="text-md font-bold leading-[1.4] md:text-xl">
-              "The process was transparent from day one. They treated our
-              renovation like it was their own."
-            </blockquote>
-            <div className="mt-6 flex w-full flex-col md:mt-8 md:w-auto">
-              <div className="mb-4">
-                <img
-                  src="/images/villa-twilight.jpg"
-                  alt="Testimonial avatar 1"
-                  className="size-14 min-h-14 min-w-14 rounded-full object-cover"
-                />
-              </div>
-              <div className="mb-3 md:mb-4">
-                <p className="font-semibold">Anna Richter</p>
-                <p>Homeowner, Nuremberg</p>
-              </div>
-              <div className="hidden w-px self-stretch bg-black md:block" />
-              <div>
-                <img
-                  src="/favicon.svg" style={{opacity:0}}
-                  alt="Webflow logo 1"
-                  className="max-h-12"
-                />
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

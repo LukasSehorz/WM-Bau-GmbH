@@ -13,11 +13,11 @@ export function Contact14() {
 
           {/* Left: heading + description */}
           <div className="flex flex-col justify-center">
-            <p className="mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#0E2A6B]">
+            <p className="mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
               Kontakt
             </p>
             <h2
-              className="mb-5 font-heading font-bold leading-tight tracking-tight text-[#0A1628]"
+              className="mb-5 font-heading font-bold leading-tight tracking-tight text-[#D94520]"
               style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
             >
               Sprechen Sie mit uns.
@@ -31,8 +31,8 @@ export function Contact14() {
           {/* Right: Google Maps */}
           <div className="overflow-hidden rounded-sm" style={{ minHeight: 280 }}>
             <iframe
-              title="Schmid-Bau GmbH Standort"
-              src="https://maps.google.com/maps?q=Kreuzstra%C3%9Fe+19%2C+85459+Berglern&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="Baugeschäft GmbH Georg Härtl Standort"
+              src="https://maps.google.com/maps?q=Martinsberg+6%2C+84149+Velden&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 280 }}
@@ -46,51 +46,51 @@ export function Contact14() {
         {/* Bottom row: contact info */}
         <div className="grid grid-cols-1 gap-y-10 md:grid-cols-3 md:gap-x-16">
           <div>
-            <div className="mb-3 text-[#0E2A6B] md:mb-4">
+            <div className="mb-3 text-[#D94520] md:mb-4">
               <BiPhone className="size-6" />
             </div>
-            <h3 className="mb-1 font-heading text-base font-bold text-[#0A1628]">
+            <h3 className="mb-1 font-heading text-base font-bold text-[#D94520]">
               Telefon
             </h3>
             <p className="mb-2 font-body text-sm text-[#0A1628]/50">
               Mo – Fr, 8:00 – 17:00 Uhr
             </p>
             <a
-              className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#0E2A6B]"
-              href="tel:+4908762426420"
+              className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#D94520]"
+              href="tel:+4908742965080"
             >
-              08762 / 426420
+              08742 965080
             </a>
           </div>
 
           <div>
-            <div className="mb-3 text-[#0E2A6B] md:mb-4">
+            <div className="mb-3 text-[#D94520] md:mb-4">
               <BiEnvelope className="size-6" />
             </div>
-            <h3 className="mb-1 font-heading text-base font-bold text-[#0A1628]">
+            <h3 className="mb-1 font-heading text-base font-bold text-[#D94520]">
               E-Mail
             </h3>
             <p className="mb-2 font-body text-sm text-[#0A1628]/50">
               Projektanfragen und allgemeine Fragen
             </p>
             <a
-              className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#0E2A6B]"
-              href="mailto:schmid-bau@gmx.net"
+              className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#D94520]"
+              href="mailto:info@bauunternehmen-haertl.de"
             >
-              schmid-bau@gmx.net
+              info@bauunternehmen-haertl.de
             </a>
           </div>
 
           <div>
-            <div className="mb-3 text-[#0E2A6B] md:mb-4">
+            <div className="mb-3 text-[#D94520] md:mb-4">
               <BiMap className="size-6" />
             </div>
-            <h3 className="mb-1 font-heading text-base font-bold text-[#0A1628]">
+            <h3 className="mb-1 font-heading text-base font-bold text-[#D94520]">
               Standort
             </h3>
             <p className="font-body text-base text-[#0A1628]/60">
-              Kreuzstraße 19<br />
-              85459 Berglern
+              Martinsberg 6<br />
+              84149 Velden
             </p>
           </div>
         </div>

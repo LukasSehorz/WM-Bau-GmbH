@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "../../../utils/gsap";
 
 const team = [
-  { name: "Michael Schmid",     role: "Geschäftsführer",            img: "/images/michael-schmid.png" },
+  { name: "Georg Härtl",     role: "Geschäftsführer",            img: "/images/michael-schmid.png" },
   { name: "Maurermeister",      role: "Hochbau & Rohbau",           img: "/images/team/mason.jpg" },
   { name: "Polier",             role: "Bauleitung",                 img: "/images/team/polier.jpg" },
   { name: "Kranführer",         role: "Ladekran & Transport",       img: "/images/team/crane_op.jpg" },
@@ -98,12 +98,12 @@ export function Team() {
 
         {/* Heading */}
         <div className="mb-14 md:mb-18">
-          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#0E2A6B]">
-            Menschen bei Schmid-Bau
+          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
+            Menschen bei Bauunternehmen Härtl
           </p>
           <h2
             ref={headingRef}
-            className="font-heading font-bold leading-tight tracking-tight text-[#0A1628]"
+            className="font-heading font-bold leading-tight tracking-tight text-[#D94520]"
             style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
           >
             Unser Team
@@ -131,14 +131,14 @@ export function Team() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 {/* Gold bottom line on hover */}
-                <div className="absolute bottom-0 left-0 h-[3px] w-0 bg-[#0E2A6B] transition-all duration-500 group-hover:w-full" />
+                <div className="absolute bottom-0 left-0 h-[3px] w-0 bg-[#D94520] transition-all duration-500 group-hover:w-full" />
               </div>
 
               {/* Info */}
-              <h3 data-team-name className="font-heading text-sm font-bold text-[#0A1628] md:text-base">
+              <h3 data-team-name className="font-heading text-sm font-bold text-[#D94520] md:text-base">
                 {member.name}
               </h3>
-              <p data-team-role className="mt-1 font-body text-xs text-[#0E2A6B]/80">
+              <p data-team-role className="mt-1 font-body text-xs text-[#D94520]/80">
                 {member.role}
               </p>
             </div>

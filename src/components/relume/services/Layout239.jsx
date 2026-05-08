@@ -39,13 +39,6 @@ const services = [
     body: "Zuverlässiger Schüttgut- und Baumaterialtransport. Gerüstbau für sichere Arbeiten. Ladekranarbeiten für präzises Heben.",
     tags: ["Transporte", "Gerüstbau", "Ladekran"],
   },
-  {
-    image: "/images/service-baustoff.jpg",
-    num: "06",
-    title: "Baustoffhandel",
-    body: "Breites Sortiment für Profis und Heimwerker – offen, ehrlich beraten und in der Praxis bewährt. Ankauf von Grundstücken.",
-    tags: ["Baustoffhandel", "Beratung", "Grundstücksankauf"],
-  },
 ];
 
 export function Layout239() {
@@ -229,14 +222,14 @@ export function Layout239() {
         <div className="mb-12 md:mb-16">
           <p
             ref={eyebrowRef}
-            className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#0E2A6B]"
+            className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]"
             style={{ willChange: "transform, opacity" }}
           >
             Unsere Leistungen auf einen Blick
           </p>
           <h2
             ref={headingRef}
-            className="font-heading font-bold leading-tight tracking-tight text-[#0A1628] whitespace-nowrap"
+            className="font-heading font-bold leading-tight tracking-tight text-[#D94520] whitespace-nowrap"
             style={{ fontSize: "clamp(2rem, 4vw, 4rem)", willChange: "transform, opacity" }}
           >
             Gewerke. Ein Ansprechpartner.
@@ -262,7 +255,7 @@ export function Layout239() {
               }}
               onMouseEnter={e => {
                 e.currentTarget.style.transform = "translateY(-6px) scale(1.01)";
-                e.currentTarget.style.boxShadow = "0 20px 40px -12px rgba(14,42,107,0.35)";
+                e.currentTarget.style.boxShadow = "0 20px 40px -12px rgba(217,69,32,0.35)";
               }}
               onMouseLeave={e => {
                 e.currentTarget.style.transform = "";
@@ -341,17 +334,17 @@ export function Layout239() {
         <div ref={ctaWrapRef} className="mt-10 flex flex-wrap items-center gap-6 md:mt-14">
           <a
             href="/kontakt"
-            className="inline-flex items-center gap-2 border border-[#0E2A6B]/30 px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-[#0E2A6B] transition-all duration-300 hover:bg-[#0E2A6B] hover:text-white hover:border-[#0E2A6B]"
+            className="inline-flex items-center gap-2 border border-[#D94520]/30 px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-[#D94520] transition-all duration-300 hover:bg-[#D94520] hover:text-white hover:border-[#D94520]"
           >
             Termin vereinbaren
             <span>→</span>
           </a>
           <a
             href="/kontakt"
-            className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-[0.12em] text-[#5A6478] transition-colors duration-200 hover:text-[#0E2A6B]"
+            className="inline-flex items-center gap-2 font-body text-sm font-semibold uppercase tracking-[0.12em] text-[#D94520]/70 transition-colors duration-200 hover:text-[#D94520]"
           >
             Projekt anfragen
-            <span className="text-[#0E2A6B]">→</span>
+            <span className="text-[#D94520]">→</span>
           </a>
         </div>
 

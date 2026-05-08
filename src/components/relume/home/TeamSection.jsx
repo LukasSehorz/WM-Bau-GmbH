@@ -5,14 +5,14 @@ import { gsap, ScrollTrigger } from "../../../utils/gsap";
 
 const michael = {
   num: "01",
-  name: "Michael Schmid",
+  name: "Georg Härtl",
   title: "Geschäftsführer",
   role: "Inhaber",
   image: "/images/michael-schmid.png",
-  email: "schmid-bau@gmx.net",
-  bio: "2007 übernahm Michael Schmid das väterliche Unternehmen und führt es seitdem mit Persönlichkeit und Beständigkeit weiter. Mit einem zehnköpfigen Team realisiert er Projekte von der Planung bis zur Schlüsselübergabe – in der Region Erding und weit darüber hinaus.",
+  email: "info@bauunternehmen-haertl.de",
+  bio: "2007 übernahm Georg Härtl das väterliche Unternehmen und führt es seitdem mit Persönlichkeit und Beständigkeit weiter. Mit einem zehnköpfigen Team realisiert er Projekte von der Planung bis zur Schlüsselübergabe – in der Region Erding und weit darüber hinaus.",
   facts: [
-    { label: "Unternehmen", value: "Schmid-Bau GmbH" },
+    { label: "Unternehmen", value: "Baugeschäft GmbH Georg Härtl" },
     { label: "Schwerpunkt", value: "Hochbau, Tiefbau & Baustoffhandel" },
     { label: "Übernahme", value: "2007 (Familienbetrieb seit 1992)" },
   ],
@@ -102,7 +102,7 @@ export function TeamSection() {
 
         {/* Links: Text */}
         <div className="flex h-full w-1/2 flex-col justify-center px-12 md:px-16 lg:px-20">
-          <p className="team-eyebrow mb-5 font-body text-xs font-semibold uppercase tracking-[0.32em]" style={{ color: "#5AACCF" }}>
+          <p className="team-eyebrow mb-5 font-body text-xs font-semibold uppercase tracking-[0.32em]" style={{ color: "#F07040" }}>
             {michael.num} · Geschäftsführung
           </p>
 
@@ -119,7 +119,7 @@ export function TeamSection() {
             {michael.title} · {michael.role}
           </p>
 
-          <div className="team-divider mb-8 h-px w-12" style={{ backgroundColor: "#5AACCF" }} />
+          <div className="team-divider mb-8 h-px w-12" style={{ backgroundColor: "#F07040" }} />
 
           <p className="team-bio mb-10 max-w-md font-body text-sm leading-relaxed text-white/60 md:text-base">
             {michael.bio}
@@ -128,7 +128,7 @@ export function TeamSection() {
           <div className="mb-10 space-y-4">
             {michael.facts.map((f) => (
               <div key={f.label} className="team-fact flex items-baseline gap-4">
-                <span className="w-28 shrink-0 font-body text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#5AACCF" }}>
+                <span className="w-28 shrink-0 font-body text-xs font-semibold uppercase tracking-[0.18em]" style={{ color: "#F07040" }}>
                   {f.label}
                 </span>
                 <span className="font-body text-sm text-white/80">{f.value}</span>
@@ -140,7 +140,7 @@ export function TeamSection() {
             href={`mailto:${michael.email}`}
             className="team-email inline-flex items-center gap-2 font-body text-sm text-white/50 transition-colors duration-200 hover:text-white"
           >
-            {michael.email} <span style={{ color: "#5AACCF" }}>→</span>
+            {michael.email} <span style={{ color: "#F07040" }}>→</span>
           </a>
         </div>
 

@@ -38,7 +38,7 @@ export function Testimonial6() {
               </div>
               <div className="mb-3 md:mb-4">
                 <p className="font-semibold">Klaus Müller</p>
-                <p>Homeowner, Munich</p>
+                <p>Google Rezension, 5/5 Sterne</p>
               </div>
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>
@@ -72,7 +72,7 @@ export function Testimonial6() {
               </div>
               <div className="mb-3 md:mb-4">
                 <p className="font-semibold">Petra Hoffmann</p>
-                <p>Homeowner, Augsburg</p>
+                <p>Google Rezension, 5/5 Sterne</p>
               </div>
               <div className="hidden w-px self-stretch bg-black md:block" />
               <div>

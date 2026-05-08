@@ -31,17 +31,17 @@ const projects = [
     desc: "Neubau einer zweigruppigen Kindertagesstätte mit Außenanlage",
     location: "Erding",
     img: "/images/bild-kindergarten.jpg",
-    detail: "Im Auftrag der Gemeinde Erding errichtete Schmid-Bau GmbH eine moderne Kindertagesstätte mit zwei Gruppen, Technikraum und gestalteter Außenanlage. Das Gebäude erfüllt höchste energetische Anforderungen und überzeugt durch eine freundliche, funktionale Architektur. Alle Arbeiten wurden termingerecht und im vereinbarten Kostenrahmen abgeschlossen.",
+    detail: "Im Auftrag der Gemeinde Erding errichtete Baugeschäft GmbH Georg Härtl eine moderne Kindertagesstätte mit zwei Gruppen, Technikraum und gestalteter Außenanlage. Das Gebäude erfüllt höchste energetische Anforderungen und überzeugt durch eine freundliche, funktionale Architektur. Alle Arbeiten wurden termingerecht und im vereinbarten Kostenrahmen abgeschlossen.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
     id: "02",
-    title: "Feuerwehrhaus Berglern",
+    title: "Feuerwehrhaus Velden",
     category: "Öffentlicher Bau",
     desc: "Neubau des Feuerwehrgerätehauses mit Schulungsraum und Stellplätzen",
-    location: "Berglern",
+    location: "Velden",
     img: "/images/bild-feuerwehr.jpg",
-    detail: "Für die Freiwillige Feuerwehr Berglern realisierte Schmid-Bau GmbH einen modernen Neubau mit drei Fahrzeugstellplätzen, Umkleideräumen, Schulungsraum und Außenbereich. Konstruktion und Ausbau wurden vollständig in Eigenregie koordiniert – von der Planung bis zur schlüsselfertigen Übergabe.",
+    detail: "Für die Freiwillige Feuerwehr Velden realisierte Baugeschäft GmbH Georg Härtl einen modernen Neubau mit drei Fahrzeugstellplätzen, Umkleideräumen, Schulungsraum und Außenbereich. Konstruktion und Ausbau wurden vollständig in Eigenregie koordiniert – von der Planung bis zur schlüsselfertigen Übergabe.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     desc: "Neubau einer Gemeinschafts- und Veranstaltungshalle mit Bühne",
     location: "Taufkirchen / Vils",
     img: "/images/bild-mehrzweck.jpg",
-    detail: "In Taufkirchen an der Vils entstand eine großzügige Mehrzweckhalle für Veranstaltungen, Vereine und Gemeindezwecke. Schmid-Bau GmbH übernahm alle Rohbau- und Ausbauarbeiten. Besonderes Merkmal ist die flexible Raumaufteilung sowie die hochwertige Holz-Beton-Konstruktion der Dachkonstruktion.",
+    detail: "In Taufkirchen an der Vils entstand eine großzügige Mehrzweckhalle für Veranstaltungen, Vereine und Gemeindezwecke. Baugeschäft GmbH Georg Härtl übernahm alle Rohbau- und Ausbauarbeiten. Besonderes Merkmal ist die flexible Raumaufteilung sowie die hochwertige Holz-Beton-Konstruktion der Dachkonstruktion.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     desc: "Schlüsselfertiger Neubau eines Einfamilienhauses mit Carport",
     location: "Dorfen",
     img: "/images/bild-wohnhaus.jpg",
-    detail: "Für eine Privatfamilie in Dorfen realisierte Schmid-Bau GmbH ein schlüsselfertiges Einfamilienhaus mit Keller, Carport und Gartengestaltung. Das klare, moderne Erscheinungsbild mit hochwertigen Materialien und durchdachter Grundrissplanung wurde in enger Zusammenarbeit mit dem Bauherrn entwickelt.",
+    detail: "Für eine Privatfamilie in Dorfen realisierte Baugeschäft GmbH Georg Härtl ein schlüsselfertiges Einfamilienhaus mit Keller, Carport und Gartengestaltung. Das klare, moderne Erscheinungsbild mit hochwertigen Materialien und durchdachter Grundrissplanung wurde in enger Zusammenarbeit mit dem Bauherrn entwickelt.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     desc: "Neubau einer Lager- und Betriebshalle mit Bürotrakt",
     location: "Walpertskirchen",
     img: "/images/bild-gewerbehalle.jpg",
-    detail: "Für ein regional ansässiges Unternehmen errichtete Schmid-Bau GmbH in Walpertskirchen eine Gewerbe- und Lagerhalle mit angeschlossenem Bürotrakt. Die Stahlkonstruktion bietet maximale Nutzflexibilität bei kurzer Bauzeit. Sämtliche Erschließungs- und Außenanlagenarbeiten wurden ebenfalls von Schmid-Bau übernommen.",
+    detail: "Für ein regional ansässiges Unternehmen errichtete Baugeschäft GmbH Georg Härtl in Walpertskirchen eine Gewerbe- und Lagerhalle mit angeschlossenem Bürotrakt. Die Stahlkonstruktion bietet maximale Nutzflexibilität bei kurzer Bauzeit. Sämtliche Erschließungs- und Außenanlagenarbeiten wurden ebenfalls von Bauunternehmen Härtl übernommen.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     desc: "Kernsanierung und Modernisierung eines denkmalgeschützten Bauernhofs",
     location: "Buch am Buchrain",
     img: "/images/bild-bauernhof.jpg",
-    detail: "In Buch am Buchrain sanierte Schmid-Bau GmbH einen historischen Bauernhof unter denkmalschutzrechtlichen Auflagen. Neue Fenster, Dämmung, Haustechnik und Fassade wurden behutsam integriert, ohne den traditionellen Charakter des Gebäudes zu beeinträchtigen. Ein anspruchsvolles Projekt, das Handwerkskunst und moderne Bautechnik vereint.",
+    detail: "In Buch am Buchrain sanierte Baugeschäft GmbH Georg Härtl einen historischen Bauernhof unter denkmalschutzrechtlichen Auflagen. Neue Fenster, Dämmung, Haustechnik und Fassade wurden behutsam integriert, ohne den traditionellen Charakter des Gebäudes zu beeinträchtigen. Ein anspruchsvolles Projekt, das Handwerkskunst und moderne Bautechnik vereint.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
 ];
@@ -163,7 +163,7 @@ export function Portfolio15() {
         const activeTl = gsap.timeline({ paused: true })
           .to(rowBg,      { backgroundColor: "rgba(255,255,255,0.05)", duration: 0.4, ease: "power2.out" }, 0)
           .to(goldBorder, { height: "100%", duration: 0.5, ease: "expo.out" }, 0)
-          .to(num,        { color: "#5AACCF", duration: 0.4, ease: "power2.out" }, 0);
+          .to(num,        { color: "#F07040", duration: 0.4, ease: "power2.out" }, 0);
 
         // Row is "active" while the viewport's vertical center intersects it.
         // start fires when row top crosses the center going up;
@@ -190,7 +190,7 @@ export function Portfolio15() {
 
         {/* Heading */}
         <div className="mb-16 md:mb-20">
-          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#5AACCF]">
+          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#F07040]">
             Referenzprojekte
           </p>
           <h2
@@ -221,7 +221,7 @@ export function Portfolio15() {
                 {/* Gold left border */}
                 <div
                   data-row-gold-border
-                  className="absolute left-0 top-0 w-[3px] bg-[#5AACCF]"
+                  className="absolute left-0 top-0 w-[3px] bg-[#F07040]"
                   style={{ height: "0%" }}
                 />
 
@@ -237,7 +237,7 @@ export function Portfolio15() {
 
                   {/* Title + Category */}
                   <div data-row-meta>
-                    <p className="mb-2 font-body text-[11px] font-semibold uppercase tracking-[0.25em] text-[#5AACCF]">
+                    <p className="mb-2 font-body text-[11px] font-semibold uppercase tracking-[0.25em] text-[#F07040]">
                       {p.category}
                     </p>
                     <h3 className="font-heading text-2xl font-bold text-white md:text-3xl">
@@ -251,7 +251,7 @@ export function Portfolio15() {
                       {p.desc}
                     </p>
                     <div className="mt-3 flex items-center gap-2">
-                      <div className="h-px w-4 bg-[#5AACCF]/50" />
+                      <div className="h-px w-4 bg-[#F07040]/50" />
                       <p className="font-body text-xs uppercase tracking-[0.2em] text-white/50">
                         {p.location}
                       </p>
@@ -270,11 +270,11 @@ export function Portfolio15() {
                     <button
                       data-row-btn
                       onClick={() => toggle(i)}
-                      className="flex items-center justify-between border border-white/20 px-4 py-2.5 font-body text-xs font-semibold uppercase tracking-[0.15em] text-white/80 transition-all duration-300 hover:border-[#5AACCF] hover:text-[#5AACCF]"
+                      className="flex items-center justify-between border border-white/20 px-4 py-2.5 font-body text-xs font-semibold uppercase tracking-[0.15em] text-white/80 transition-all duration-300 hover:border-[#F07040] hover:text-[#F07040]"
                     >
                       <span>{expanded === i ? "Schließen" : "Mehr erfahren"}</span>
                       <span
-                        className="ml-3 text-[#5AACCF] transition-transform duration-300"
+                        className="ml-3 text-[#F07040] transition-transform duration-300"
                         style={{ transform: expanded === i ? "rotate(45deg)" : "rotate(0deg)" }}
                       >
                         +
@@ -293,15 +293,15 @@ export function Portfolio15() {
                   <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
                     {/* Info text */}
                     <div>
-                      <p className="mb-3 font-body text-[11px] font-semibold uppercase tracking-[0.25em] text-[#5AACCF]">
+                      <p className="mb-3 font-body text-[11px] font-semibold uppercase tracking-[0.25em] text-[#F07040]">
                         Projektbeschreibung
                       </p>
                       <p className="font-body text-base leading-relaxed text-white/80">
                         {p.detail}
                       </p>
                       <div className="mt-6 flex items-center gap-3">
-                        <div className="h-px w-6 bg-[#5AACCF]/60" />
-                        <span className="font-body text-xs uppercase tracking-[0.2em] text-[#5AACCF]/70">
+                        <div className="h-px w-6 bg-[#F07040]/60" />
+                        <span className="font-body text-xs uppercase tracking-[0.2em] text-[#F07040]/70">
                           {p.category} · {p.location}
                         </span>
                       </div>

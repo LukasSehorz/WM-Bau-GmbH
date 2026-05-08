@@ -114,10 +114,10 @@ export function Stats17() {
 
           {/* Left */}
           <div>
-            <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#0E2A6B] md:mb-4">
+            <p className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#D94520] md:mb-4">
               Unsere Zahlen
             </p>
-            <h2 className="mb-5 font-heading text-5xl font-bold leading-tight tracking-tight text-[#0A1628] md:mb-6 md:text-7xl lg:text-8xl">
+            <h2 className="mb-5 font-heading text-5xl font-bold leading-tight tracking-tight text-[#D94520] md:mb-6 md:text-7xl lg:text-8xl">
               Ergebnisse,<br />die für sich sprechen
             </h2>
             <p className="font-body text-base text-[#0A1628]/65 md:text-lg">
@@ -126,7 +126,7 @@ export function Stats17() {
             <div className="mt-8">
               <a
                 href="/projekte"
-                className="group inline-flex items-center gap-3 border border-[#0E2A6B]/30 px-7 py-3 font-body text-sm font-semibold tracking-[0.14em] uppercase text-[#0E2A6B] transition-all duration-200 hover:bg-[#0E2A6B] hover:text-white hover:border-[#0E2A6B]"
+                className="group inline-flex items-center gap-3 border border-[#D94520]/30 px-7 py-3 font-body text-sm font-semibold tracking-[0.14em] uppercase text-[#D94520] transition-all duration-200 hover:bg-[#D94520] hover:text-white hover:border-[#D94520]"
               >
                 Projekte entdecken
                 <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
@@ -138,8 +138,8 @@ export function Stats17() {
           <div className="grid grid-cols-2 gap-x-8 gap-y-10 py-2 md:gap-x-12 md:gap-y-12">
             {stats.map((stat) => (
               <div key={stat.label} className="relative pl-6">
-                <div className="s17-item-border absolute left-0 top-0 h-full w-0.5 bg-[#0E2A6B]/70" />
-                <p className="s17-num mb-2 font-heading text-5xl font-bold leading-tight text-[#0A1628] md:text-6xl lg:text-7xl">
+                <div className="s17-item-border absolute left-0 top-0 h-full w-0.5 bg-[#D94520]/70" />
+                <p className="s17-num mb-2 font-heading text-5xl font-bold leading-tight text-[#D94520] md:text-6xl lg:text-7xl">
                   {stat.value}
                 </p>
                 <p className="font-body text-sm font-medium text-[#0A1628]/65 md:text-base">

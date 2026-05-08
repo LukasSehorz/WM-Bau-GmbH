@@ -44,7 +44,7 @@ export function ProzessHero() {
       {/* Background image */}
       <img
         src="/images/prozess-hero.jpg"
-        alt="Schmid-Bau GmbH – Prozess"
+        alt="Baugeschäft GmbH Georg Härtl – Prozess"
         className="prozess-hero-bg absolute inset-0 h-full w-full object-cover object-center"
         style={{ willChange: "transform" }}
       />
@@ -160,7 +160,7 @@ export function ProzessHero() {
               </svg>
             </span>
             <span className="text-left">
-              <span className="block font-body text-[0.7rem] font-semibold uppercase tracking-[0.32em] text-[#5AACCF]">
+              <span className="block font-body text-[0.7rem] font-semibold uppercase tracking-[0.32em] text-[#F07040]">
                 Prozess entdecken
               </span>
               <span className="mt-1 block font-body text-[0.65rem] uppercase tracking-[0.22em] text-white/70">

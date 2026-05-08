@@ -15,9 +15,9 @@ export function Layout10() {
               Vom Maurerbetrieb zum Vollbauunternehmen
             </h2>
             <p className="mb-6 font-body text-base leading-relaxed text-text-secondary md:text-lg">
-              Michael Schmid-Bau gründete das Unternehmen 1952 als Maurerfirma mit drei Mitarbeitern in Berglern.
-              Unter seinen Söhnen Dieter und Manfred Schmid-Bau wuchs es zu einem Bauunternehmen mit 30 Mitarbeitern heran.
-              Heute liegt die Geschäftsführung in den Händen von <strong className="text-text-primary font-semibold">Claudia Schmid-Bau</strong> und <strong className="text-text-primary font-semibold">Michael Schmid</strong> – bereits die dritte Generation.
+              Michael Bauunternehmen Härtl gründete das Unternehmen 1952 als Maurerfirma mit drei Mitarbeitern in Velden.
+              Unter seinen Söhnen Dieter und Manfred Bauunternehmen Härtl wuchs es zu einem Bauunternehmen mit 30 Mitarbeitern heran.
+              Heute liegt die Geschäftsführung in den Händen von <strong className="text-text-primary font-semibold">Claudia Bauunternehmen Härtl</strong> und <strong className="text-text-primary font-semibold">Georg Härtl</strong> – bereits die dritte Generation.
             </p>
             <p className="mb-8 font-body text-base leading-relaxed text-text-secondary md:text-lg">
               Unser Aufgabenschwerpunkt liegt in der Ausführung von Baumeisterarbeiten im Hoch-, Erd- und Kanalbau.
@@ -62,7 +62,7 @@ export function Layout10() {
             <img
               src="/images/craftsmen-stone-facade.jpg"
               className="w-full object-cover transition-transform duration-700 hover:scale-105"
-              alt="Schmid-Bau GmbH – Facharbeiter auf der Baustelle"
+              alt="Baugeschäft GmbH Georg Härtl – Facharbeiter auf der Baustelle"
             />
           </div>
         </div>

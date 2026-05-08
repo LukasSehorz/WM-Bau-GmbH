@@ -61,7 +61,7 @@ export function Navbar3() {
         {/* Center: logo */}
         <a href="/" className="flex items-center justify-center gap-2 py-4">
           <span className="font-heading text-xl font-bold tracking-[0.08em] text-text-primary uppercase">
-            Schmid-Bau
+            Bauunternehmen Härtl
           </span>
           <span className="font-heading text-[0.65rem] font-semibold tracking-[0.18em] text-text-secondary uppercase self-end pb-[3px]">
             Bauunternehmen
@@ -71,13 +71,13 @@ export function Navbar3() {
         {/* Right: phone CTA */}
         <div className="flex items-center justify-end">
           <a
-            href="tel:+4981214711 0"
+            href="tel:+4908742965080"
             className="hidden sm:inline-flex items-center gap-2 border border-border-primary px-5 py-2 font-body text-sm font-medium tracking-wide text-text-primary transition-colors duration-200 hover:border-text-primary"
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-70">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.36h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
             </svg>
-            08762 / 426420
+            08742 965080
           </a>
         </div>
       </div>
@@ -108,7 +108,7 @@ export function Navbar3() {
             >
               <div className="flex items-center justify-between py-5 mb-8 border-b border-border-primary">
                 <span className="font-heading text-xl font-bold tracking-[0.12em] uppercase text-text-primary">
-                  Schmid-Bau
+                  Bauunternehmen Härtl
                 </span>
                 <button onClick={toggle} className="size-8 flex items-center justify-center text-text-primary text-2xl leading-none">
                   ×
@@ -130,7 +130,7 @@ export function Navbar3() {
                 <a
                   href="/kontakt"
                   onClick={toggle}
-                  className="flex w-full items-center justify-center bg-hoser-gold px-6 py-3 text-sm font-semibold tracking-wide text-white hover:bg-hoser-gold-light transition-colors duration-200"
+                  className="flex w-full items-center justify-center bg-hoser-gold px-6 py-3 text-sm font-semibold tracking-wide text-text-primary hover:bg-hoser-gold-light transition-colors duration-200"
                 >
                   Beratung anfragen
                 </a>

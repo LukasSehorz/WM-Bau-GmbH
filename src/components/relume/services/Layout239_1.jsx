@@ -122,7 +122,7 @@ export function Layout239_1() {
         // Hover: gold underline grows
         cell.addEventListener("mouseenter", () => {
           gsap.to(accent, { scaleX: 1, duration: 0.5, ease: "power3.out" });
-          gsap.to(label,  { y: -3, color: "#0E2A6B", duration: 0.4, ease: "power3.out" });
+          gsap.to(label,  { y: -3, color: "#D94520", duration: 0.4, ease: "power3.out" });
         });
         cell.addEventListener("mouseleave", () => {
           gsap.to(accent, { scaleX: 0, duration: 0.4, ease: "power3.in",
@@ -196,7 +196,7 @@ export function Layout239_1() {
         </p>
         <h2
           ref={headingRef}
-          className="font-heading font-bold leading-tight tracking-tight text-[#0A1628]"
+          className="font-heading font-bold leading-tight tracking-tight text-[#D94520]"
           style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
         >
           Qualität, die man nachweisen kann.
@@ -204,10 +204,10 @@ export function Layout239_1() {
       </div>
 
       {/* Certifications dark strip — full width */}
-      <div ref={certStripRef} className="mb-16" style={{ borderTop: "2px solid #0E2A6B" }}>
+      <div ref={certStripRef} className="mb-16" style={{ borderTop: "2px solid #060D1F" }}>
         <div
           className="grid grid-cols-2 md:grid-cols-4"
-          style={{ background: "linear-gradient(135deg, #0E2A6B 0%, #0A2059 60%, #07194A 100%)" }}
+          style={{ background: "#060D1F" }}
         >
           {certifications.map((c, i) => (
             <div
@@ -256,7 +256,7 @@ export function Layout239_1() {
                   style={{ maxHeight: "36px", width: "auto", maxWidth: "140px", display: "block" }}
                 />
               ) : (
-                <span className="font-heading text-lg font-bold text-[#0A1628]/30">
+                <span className="font-heading text-lg font-bold text-[#D94520]/30">
                   {p.label}
                 </span>
               )}

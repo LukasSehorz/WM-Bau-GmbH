@@ -45,7 +45,7 @@ const vorteile = [
   {
     num: "05",
     title: "Sicherer Arbeitsplatz",
-    desc: "Konstante Auftragslage durch starkes regionales Netzwerk – über 500 abgeschlossene Projekte seit 1952.",
+    desc: "Konstante Auftragslage durch starkes regionales Netzwerk – zuverlässig seit über 30 Jahren.",
   },
   {
     num: "06",
@@ -65,7 +65,6 @@ export function KarriereVorteile() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Heading reveal
       gsap.set(eyebrowRef.current, { y: 22, opacity: 0 });
       const headingWords = headingRef.current
         ? splitWords(headingRef.current, "Warum bei uns arbeiten?")
@@ -87,7 +86,6 @@ export function KarriereVorteile() {
         .to(subRef.current, { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, "-=0.5")
         .to(ctaRef.current, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.4)" }, "-=0.4");
 
-      // Ghost "HOSER" parallax
       if (ghostRef.current) {
         gsap.to(ghostRef.current, {
           x: -120,
@@ -101,7 +99,6 @@ export function KarriereVorteile() {
         });
       }
 
-      // Per-cell entrance: gold number scale + content lift + bottom line wipe
       cellsRef.current.filter(Boolean).forEach((cell, idx) => {
         const num   = cell.querySelector("[data-vt-num]");
         const title = cell.querySelector("[data-vt-title]");
@@ -139,7 +136,7 @@ export function KarriereVorteile() {
       ref={sectionRef}
       id="jobs"
       className="overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #0E2A6B 0%, #0A2059 60%, #07194A 100%)" }}
+      style={{ backgroundColor: "#FDFCF8" }}
     >
       {/* Top: image background behind heading */}
       <div
@@ -150,47 +147,36 @@ export function KarriereVorteile() {
           backgroundPosition: "center 30%",
         }}
       >
-        {/* Brand-blue overlay for legibility */}
         <div
           className="absolute inset-0"
           style={{
-            background: "linear-gradient(to bottom, rgba(14,42,107,0.62) 0%, rgba(14,42,107,0.40) 40%, rgba(7,25,74,0.78) 75%, rgba(7,25,74,1) 100%)",
+            background: "linear-gradient(to bottom, rgba(253,252,248,0.82) 0%, rgba(253,252,248,0.90) 60%, rgba(253,252,248,1) 100%)",
           }}
         />
-
-        {/* Decorative background text */}
-        <div
-          ref={ghostRef}
-          className="pointer-events-none absolute right-[-2%] top-[50%] -translate-y-1/2 select-none font-heading font-bold leading-none text-white/[0.07]"
-          style={{ fontSize: "clamp(6rem, 18vw, 20rem)" }}
-          aria-hidden="true"
-        >
-          SCHMID
-        </div>
 
         <div className="container relative z-10">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-end">
             <div>
-              <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-white/85">
-                Karriere bei Schmid-Bau
+              <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.28em] text-[#D94520]">
+                Karriere bei Bauunternehmen Härtl
               </p>
               <h2
                 ref={headingRef}
-                className="font-heading font-bold leading-tight tracking-tight text-white"
+                className="font-heading font-bold leading-tight tracking-tight text-[#D94520]"
                 style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
               >
                 Warum bei uns arbeiten?
               </h2>
             </div>
             <div className="md:text-right">
-              <p ref={subRef} className="font-body text-base leading-relaxed text-white/75 max-w-md md:ml-auto">
+              <p ref={subRef} className="font-body text-base leading-relaxed text-[#0A1628]/60 max-w-md md:ml-auto">
                 Als gewachsenes Familienunternehmen bieten wir mehr als nur einen Job –
                 einen Arbeitsplatz, der sich lohnt. Langfristig, sicher und fair.
               </p>
               <a
                 ref={ctaRef}
                 href="#stellenangebote"
-                className="mt-6 inline-flex items-center gap-2 border border-white/35 px-6 py-3 font-body text-sm font-semibold uppercase tracking-[0.12em] text-white transition-all duration-200 hover:bg-white hover:text-hoser-gold hover:border-white"
+                className="mt-6 inline-flex items-center gap-2 border border-[#D94520]/40 px-6 py-3 font-body text-sm font-semibold uppercase tracking-[0.12em] text-[#D94520] transition-all duration-200 hover:bg-[#D94520] hover:text-white hover:border-[#D94520]"
               >
                 Alle Stellen ansehen <span>→</span>
               </a>
@@ -200,25 +186,26 @@ export function KarriereVorteile() {
       </div>
 
       {/* Benefits grid */}
-      <div className="px-[5%] pb-16 md:pb-24 lg:pb-28">
+      <div className="px-[5%] pb-16 md:pb-24 lg:pb-28" style={{ backgroundColor: "#FDFCF8" }}>
         <div className="container">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/[0.10]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px" style={{ backgroundColor: "rgba(217,69,32,0.10)" }}>
             {vorteile.map((v, idx) => (
               <div
                 key={v.num}
                 ref={(el) => (cellsRef.current[idx] = el)}
-                className="group relative bg-[#0A2059] p-8 md:p-10 transition-colors duration-300 hover:bg-[#0C2666]"
+                className="group relative p-8 md:p-10 transition-colors duration-300 hover:bg-[#FDF3EF]"
+                style={{ backgroundColor: "#FDFCF8" }}
               >
-                <span data-vt-num className="mb-6 block font-body text-[10px] font-semibold uppercase tracking-[0.32em] text-white/60">
+                <span data-vt-num className="mb-6 block font-body text-[10px] font-semibold uppercase tracking-[0.32em] text-[#D94520]">
                   {v.num}
                 </span>
-                <h3 data-vt-title className="mb-3 font-heading text-lg font-bold text-white md:text-xl transition-colors duration-300">
+                <h3 data-vt-title className="mb-3 font-heading text-lg font-bold text-[#0A1628] md:text-xl">
                   {v.title}
                 </h3>
-                <p data-vt-desc className="font-body text-sm leading-relaxed text-white/55">
+                <p data-vt-desc className="font-body text-sm leading-relaxed text-[#0A1628]/55">
                   {v.desc}
                 </p>
-                <div data-vt-line className="absolute bottom-0 left-0 h-[2px] w-full bg-white/40" />
+                <div data-vt-line className="absolute bottom-0 left-0 h-[2px] w-full bg-[#D94520]/30" />
               </div>
             ))}
           </div>

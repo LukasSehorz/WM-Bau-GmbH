@@ -61,7 +61,7 @@ export function Navbar3() {
         {/* Center: logo */}
         <a href="/" className="flex items-center justify-center py-4">
           <span className="font-heading text-lg font-bold tracking-[0.12em] text-text-primary uppercase">
-            Schmid-Bau
+            Bauunternehmen Härtl
           </span>
         </a>
 
@@ -69,7 +69,7 @@ export function Navbar3() {
         <div className="flex items-center justify-end">
           <a
             href="/kontakt"
-            className="hidden sm:inline-flex items-center gap-2 rounded-none bg-hoser-gold px-5 py-2 text-sm font-semibold tracking-wide text-white transition-colors duration-200 hover:bg-hoser-gold-light"
+            className="hidden sm:inline-flex items-center gap-2 rounded-none bg-hoser-gold px-5 py-2 text-sm font-semibold tracking-wide text-text-primary transition-colors duration-200 hover:bg-hoser-gold-light"
           >
             Beratung anfragen
           </a>
@@ -102,7 +102,7 @@ export function Navbar3() {
             >
               <div className="flex items-center justify-between py-5 mb-8 border-b border-border-primary">
                 <span className="font-heading text-xl font-bold tracking-[0.12em] uppercase text-text-primary">
-                  Schmid-Bau
+                  Bauunternehmen Härtl
                 </span>
                 <button onClick={toggle} className="size-8 flex items-center justify-center text-text-primary text-2xl leading-none">
                   ×
@@ -124,7 +124,7 @@ export function Navbar3() {
                 <a
                   href="/kontakt"
                   onClick={toggle}
-                  className="flex w-full items-center justify-center bg-hoser-gold px-6 py-3 text-sm font-semibold tracking-wide text-white hover:bg-hoser-gold-light transition-colors duration-200"
+                  className="flex w-full items-center justify-center bg-hoser-gold px-6 py-3 text-sm font-semibold tracking-wide text-text-primary hover:bg-hoser-gold-light transition-colors duration-200"
                 >
                   Beratung anfragen
                 </a>

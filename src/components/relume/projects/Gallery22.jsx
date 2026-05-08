@@ -129,7 +129,7 @@ export function Gallery22() {
 
         {/* Heading */}
         <div className="mb-12 md:mb-16">
-          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#5AACCF]">
+          <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#F07040]">
             Einblicke
           </p>
           <h2
@@ -184,7 +184,7 @@ export function Gallery22() {
                     transform: hovered === i ? "translateY(0)" : "translateY(12px)",
                   }}
                 >
-                  <div className="mb-3 h-[2px] w-8 bg-[#5AACCF]" />
+                  <div className="mb-3 h-[2px] w-8 bg-[#F07040]" />
                   <p className="font-body text-sm leading-relaxed text-white/90 md:text-base">
                     {p.caption}
                   </p>

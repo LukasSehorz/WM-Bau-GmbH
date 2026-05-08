@@ -20,35 +20,33 @@ export default {
         background: {
           primary: "#FDFCF8",
           secondary: "#F2EFE6",
-          alternative: "#0E2A6B",
+          alternative: "#D94520",
         },
         // ── Text ────────────────────────────────────────────────────
-        // primary  = near-black w/ cool undertone (on light)
+        // primary  = near-black w/ warm undertone (on light)
         // secondary = mid-gray (on light)
-        // alternative = white (used on accent blue blocks)
+        // alternative = white (used on accent orange blocks)
         text: {
           DEFAULT: "#0A1628",
           primary: "#0A1628",
-          secondary: "#5A6478",
+          secondary: "#D94520",
           alternative: "#FFFFFF",
         },
         // ── Borders ─────────────────────────────────────────────────
         border: {
-          primary: "rgba(14,42,107,0.14)",
-          alternative: "rgba(14,42,107,0.08)",
+          primary: "rgba(217,69,32,0.14)",
+          alternative: "rgba(217,69,32,0.08)",
         },
         // ── Brand palette ───────────────────────────────────────────
-        // "hoser-*" tokens kept by name for backwards compatibility but
-        // repointed to the new SCHMID-BAU light + deep-blue identity.
         hoser: {
-          gold: "#0E2A6B",         // primary brand accent (was gold)
-          "gold-light": "#1A3D8A", // brighter blue
+          gold: "#D94520",         // primary brand accent (Härtl Orange)
+          "gold-light": "#E55528", // brighter orange
           cream: "#FDFCF8",        // canvas off-white
           charcoal: "#0A1628",     // near-black ink
           stone: "#5A6478",        // mid gray
-          navy: "#0E2A6B",         // deep brand blue — feature blocks
-          "navy-light": "#1A3D8A",
-          "navy-deep": "#07194A",
+          navy: "#D94520",         // brand orange — feature blocks
+          "navy-light": "#E55528",
+          "navy-deep": "#9E300E",
         },
         neutral: {
           lightest: "#FFFFFF",
@@ -84,7 +82,7 @@ export default {
         },
       },
       boxShadow: {
-        xlarge: "0px 24px 48px -12px rgba(14, 42, 107, 0.10)",
+        xlarge: "0px 24px 48px -12px rgba(217, 69, 32, 0.10)",
       },
       fontSize: {
         md: ["1.125rem", { lineHeight: "1.5" }],

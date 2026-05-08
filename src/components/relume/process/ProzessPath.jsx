@@ -510,18 +510,18 @@ export function ProzessPath() {
           ref={headingRef}
           style={{
             position: "absolute", top: 96, left: "5%", zIndex: 10,
-            pointerEvents: "none",
+            pointerEvents: "none", maxWidth: "min(36vw, 460px)",
           }}
         >
           <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-            <span style={{ display: "block", height: 1, width: 32, background: "#0E2A6B" }} />
+            <span style={{ display: "block", height: 1, width: 32, background: "#D94520" }} />
             <span style={{
               fontFamily: "DM Sans, sans-serif",
               fontSize: "0.68rem", fontWeight: 600,
               letterSpacing: "0.25em", textTransform: "uppercase",
-              color: "#0E2A6B",
+              color: "#D94520",
             }}>
-              Der Schmid-Bau-Prozess
+              Der Bauunternehmen Härtl-Prozess
             </span>
           </div>
           <h2 style={{
@@ -559,7 +559,7 @@ export function ProzessPath() {
           >
             <path
               d={PATH_D}
-              stroke="rgba(14,42,107,0.12)"
+              stroke="rgba(217,69,32,0.15)"
               strokeWidth="2"
               fill="none"
               strokeLinecap="round"
@@ -567,8 +567,8 @@ export function ProzessPath() {
             <path
               ref={pathRef}
               d={PATH_D}
-              stroke="rgba(14,42,107,0.70)"
-              strokeWidth="2"
+              stroke="#D94520"
+              strokeWidth="2.5"
               fill="none"
               strokeLinecap="round"
             />
@@ -578,9 +578,9 @@ export function ProzessPath() {
                 ref={(el) => (dotRefs.current[i] = el)}
                 style={{ transformOrigin: `${node.x}px ${node.y}px` }}
               >
-                <circle cx={node.x} cy={node.y} r="22" fill="rgba(14,42,107,0.10)" />
-                <circle cx={node.x} cy={node.y} r="13" fill="#FDFCF8" stroke="rgba(14,42,107,0.65)" strokeWidth="2" />
-                <circle cx={node.x} cy={node.y} r="4.5" fill="#0E2A6B" />
+                <circle cx={node.x} cy={node.y} r="22" fill="rgba(217,69,32,0.10)" />
+                <circle cx={node.x} cy={node.y} r="13" fill="#FDFCF8" stroke="#D94520" strokeWidth="2" />
+                <circle cx={node.x} cy={node.y} r="4.5" fill="#D94520" />
               </g>
             ))}
           </svg>
@@ -612,7 +612,7 @@ export function ProzessPath() {
                   width: "100%", aspectRatio: "16/9",
                   borderRadius: 4, overflow: "hidden",
                   border: "1px solid rgba(14,42,107,0.15)",
-                  boxShadow: "0 18px 44px -16px rgba(14,42,107,0.20)",
+                  boxShadow: "0 18px 44px -16px rgba(217,69,32,0.20)",
                 }}>
                   {step.img && (
                     <img
@@ -680,7 +680,7 @@ export function ProzessPath() {
                         }}>
                           <span style={{
                             width: 4, height: 4, borderRadius: "50%",
-                            background: "#0E2A6B", flexShrink: 0, marginTop: 6,
+                            background: "#D94520", flexShrink: 0, marginTop: 6,
                           }} />
                           {b}
                         </li>
@@ -697,7 +697,7 @@ export function ProzessPath() {
                       textAlign: "center", fontFamily: "DM Sans, sans-serif",
                       fontSize: "0.72rem", fontWeight: 600,
                       letterSpacing: "0.25em", textTransform: "uppercase",
-                      color: "#0E2A6B", marginBottom: 14,
+                      color: "#D94520", marginBottom: 14,
                     }}>
                       {step.num}
                     </p>
@@ -730,7 +730,7 @@ export function ProzessPath() {
                       textAlign: "center", fontFamily: "DM Sans, sans-serif",
                       fontSize: "0.72rem", fontWeight: 600,
                       letterSpacing: "0.25em", textTransform: "uppercase",
-                      color: "#0E2A6B", marginBottom: 6,
+                      color: "#D94520", marginBottom: 6,
                     }}>
                       {step.num}
                     </p>
@@ -751,7 +751,7 @@ export function ProzessPath() {
                         }}>
                           <span style={{
                             width: 4, height: 4, borderRadius: "50%",
-                            background: "#0E2A6B", flexShrink: 0, marginTop: 6,
+                            background: "#D94520", flexShrink: 0, marginTop: 6,
                           }} />
                           {b}
                         </li>

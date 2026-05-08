@@ -10,29 +10,29 @@ const milestones = [
   {
     year: "1992",
     title: "Die Gründung",
-    desc: "Die Schmid-Bau GmbH wird als Familienbetrieb gegründet. Von Anfang an stehen Handwerk, Verlässlichkeit und persönliche Betreuung im Mittelpunkt.",
-    detail: "Was als Familienbetrieb in der Region Erding begann, legte den Grundstein für über drei Jahrzehnte Erfolgsgeschichte im bayerischen Bauhandwerk.",
+    desc: "Das Bauunternehmen Härtl wird als Familienbetrieb gegründet. Von Anfang an stehen Handwerk, Verlässlichkeit und persönliche Betreuung im Mittelpunkt.",
+    detail: "Was als Familienbetrieb in der Region Erding begann, legte den Grundstein für über drei Jahrzehnte Erfahrung im bayerischen Bauhandwerk.",
     img: "/images/timeline/1952.jpg",
   },
   {
     year: "2007",
-    title: "Michael Schmid übernimmt",
-    desc: "Michael Schmid übernimmt das väterliche Unternehmen und führt es mit denselben Grundwerten weiter: Qualität, Persönlichkeit und Beständigkeit.",
-    detail: "Unter seiner Führung entwickelt sich das Leistungsspektrum stetig weiter – von Hochbau und Sanierung bis zu Tiefbau und landwirtschaftlichen Hallen.",
+    title: "Georg Härtl übernimmt",
+    desc: "Georg Härtl übernimmt das väterliche Unternehmen und führt es mit denselben Grundwerten weiter: Qualität, Verlässlichkeit und persönliche Betreuung.",
+    detail: "Unter seiner Führung wächst das Leistungsspektrum kontinuierlich – stets mit dem Anspruch, Bauprojekte termingerecht und auf höchstem handwerklichen Niveau umzusetzen.",
     img: "/images/timeline/1970.jpg",
   },
   {
     year: "2015",
     title: "Neue Heimat",
-    desc: "Schmid-Bau zieht in eine ehemalige Schnapsbrennerei in Berglern ein – ein Ort mit Geschichte und Charakter, der perfekt zum Unternehmen passt.",
-    detail: "Das neue Betriebsgelände bietet optimale Voraussetzungen für einen modernen Fuhrpark, Materiallager und Baustoffhandel.",
+    desc: "Bauunternehmen Härtl zieht in eine ehemalige Schnapsbrennerei in Velden ein – ein Ort mit Geschichte und Charakter, der perfekt zum Unternehmen passt.",
+    detail: "Das neue Betriebsgelände bietet optimale Voraussetzungen für Fuhrpark, Maschinen und Lager – eine solide Basis für alle Gewerke.",
     img: "/images/timeline/1990.jpg",
   },
   {
     year: "Heute",
     title: "30+ Jahre Baukultur",
-    desc: "Über 30 Jahre nach der Gründung steht Schmid-Bau GmbH für bayerisches Handwerk auf höchstem Niveau. Mit zehnköpfigem Team und breitem Leistungsspektrum.",
-    detail: "Von schlüsselfertigem Wohnungsbau bis Tiefbau, Gerüstbau, Transporte und Baustoffhandel – weit über die Region Erding hinaus bekannt und geschätzt.",
+    desc: "Über 30 Jahre nach der Gründung steht das Bauunternehmen Härtl für bayerisches Handwerk auf höchstem Niveau – mit einem erfahrenen Team und einem breiten Leistungsspektrum.",
+    detail: "Von schlüsselfertigem Wohnungsbau über Rohbau und Renovierung bis zu Tiefbau, Gerüst und Transporten – zuverlässig und persönlich für Bauherren in der Region.",
     img: "/images/timeline/heute.jpg",
   },
 ];
@@ -190,12 +190,12 @@ export function Geschichte() {
 
         <div className="container relative z-10">
           <div className="max-w-2xl">
-            <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#0E2A6B]">
+            <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
               Seit 1992
             </p>
             <h2
               ref={headingRef}
-              className="mb-5 font-heading font-bold leading-tight tracking-tight text-[#0A1628]"
+              className="mb-5 font-heading font-bold leading-tight tracking-tight text-[#D94520]"
               style={{ fontSize: "clamp(2rem, 4vw, 4rem)" }}
             >
               Unsere Geschichte
@@ -229,7 +229,7 @@ export function Geschichte() {
               className="absolute inset-0 origin-top"
               style={{
                 borderRadius: "6px",
-                background: "linear-gradient(to right, rgba(7,25,74,0.8) 0%, #0E2A6B 25%, #2C4F9D 50%, #0E2A6B 75%, rgba(7,25,74,0.8) 100%)",
+                background: "linear-gradient(to right, rgba(158,48,14,0.8) 0%, #D94520 25%, #E57040 50%, #D94520 75%, rgba(158,48,14,0.8) 100%)",
                 boxShadow: "2px 0 8px rgba(14,42,107,0.45), -1px 0 4px rgba(0,0,0,0.15)",
                 transform: "scaleY(0)",
               }}
@@ -252,7 +252,7 @@ export function Geschichte() {
                       width: "22px",
                       height: "22px",
                       borderRadius: "50%",
-                      background: "radial-gradient(circle at 35% 32%, #5C7BD3, #0E2A6B 48%, #07194A 100%)",
+                      background: "radial-gradient(circle at 35% 32%, #F07040, #D94520 48%, #9E300E 100%)",
                       boxShadow: "0 0 0 3px #f0f0ef, 0 0 0 5px rgba(14,42,107,0.5), 2px 3px 8px rgba(0,0,0,0.3)",
                       opacity: 0,
                       transform: "scale(0)",
@@ -270,17 +270,17 @@ export function Geschichte() {
                     {/* Year + number */}
                     <div className="flex items-baseline gap-4 mb-3">
                       <span
-                        className="font-heading font-bold leading-none text-[#0A1628]/[0.07] select-none"
+                        className="font-heading font-bold leading-none text-[#D94520]/[0.07] select-none"
                         style={{ fontSize: "clamp(2rem, 3.5vw, 3.25rem)" }}
                       >
                         {m.year}
                       </span>
-                      <span className="font-body text-[10px] font-semibold uppercase tracking-[0.3em] text-[#0E2A6B]">
+                      <span className="font-body text-[10px] font-semibold uppercase tracking-[0.3em] text-[#D94520]">
                         {String(i + 1).padStart(2, "0")}
                       </span>
                     </div>
 
-                    <h3 className="mb-3 font-heading text-2xl font-bold text-[#0A1628] md:text-3xl">
+                    <h3 className="mb-3 font-heading text-2xl font-bold text-[#D94520] md:text-3xl">
                       {m.title}
                     </h3>
                     <p className="mb-2 font-body text-base leading-relaxed text-[#0A1628]/65 max-w-2xl">

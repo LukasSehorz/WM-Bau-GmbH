@@ -14,14 +14,14 @@ const projects = [
   {
     id: "02",
     image: "/images/wohnpark-haydn.jpg",
-    title: "Wohnpark Haydn, Berglern",
+    title: "Wohnpark Haydn, Velden",
     category: "Wohnungsbau · 56 WE + Tiefgarage",
     year: "2015",
   },
   {
     id: "03",
     image: "/images/craftsmen-stone-facade.jpg",
-    title: "Firma Seidenader, Berglern",
+    title: "Firma Seidenader, Velden",
     category: "Industriebau · Produktionshalle + Büro",
     year: "2007",
   },
@@ -156,11 +156,11 @@ export function Gallery9() {
 
         {/* Heading */}
         <div className="g9-heading-area mb-14 max-w-2xl md:mb-18">
-          <p className="g9-eyebrow mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#0E2A6B]">
+          <p className="g9-eyebrow mb-4 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
             Portfolio
           </p>
           <h2
-            className="font-heading font-bold leading-[1.05] tracking-tight text-[#0A1628]"
+            className="font-heading font-bold leading-[1.05] tracking-tight text-[#D94520]"
             style={{ fontSize: "clamp(2.4rem, 4.5vw, 4.5rem)" }}
           >
             <span className="block" style={{ overflow: "hidden", paddingBottom: "0.08em" }}>
@@ -168,7 +168,7 @@ export function Gallery9() {
             </span>
             <span className="block" style={{ overflow: "hidden", paddingBottom: "0.08em" }}>
               <span className="g9-heading-inner block">
-                <em className="font-serif font-light not-italic text-[#5A6478]">
+                <em className="font-serif font-light not-italic text-[#D94520]/60">
                   Projekte.
                 </em>
               </span>
@@ -204,7 +204,7 @@ export function Gallery9() {
 
                   {/* Title overlay */}
                   <div className="g9-card-content absolute bottom-0 left-0 right-0 p-6 md:p-8">
-                    <div className="g9-card-line mb-3 h-px w-8 bg-[#0E2A6B]" />
+                    <div className="g9-card-line mb-3 h-px w-8 bg-[#D94520]" />
                     <h3
                       className="font-heading font-bold leading-tight tracking-tight text-white"
                       style={{ fontSize: "clamp(1.25rem, 2.2vw, 2rem)" }}
@@ -220,7 +220,7 @@ export function Gallery9() {
                 {/* Number panel */}
                 <div className="g9-num-panel flex items-center justify-center">
                   <span
-                    className="font-heading font-bold leading-none tracking-tight text-[#0A1628]/10 select-none"
+                    className="font-heading font-bold leading-none tracking-tight text-[#D94520]/10 select-none"
                     style={{ fontSize: "clamp(8rem, 18vw, 18rem)" }}
                     aria-hidden="true"
                   >
@@ -236,16 +236,16 @@ export function Gallery9() {
         <div className="g9-cta-row mt-12 flex flex-wrap items-center gap-6 md:mt-16">
           <a
             href="/projekte"
-            className="g9-cta inline-flex items-center bg-[#0E2A6B] px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-white transition-opacity duration-200 hover:opacity-85"
+            className="g9-cta inline-flex items-center bg-[#D94520] px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-white transition-opacity duration-200 hover:opacity-85"
           >
             Alle Projekte ansehen
           </a>
           <a
             href="/projekte"
-            className="g9-cta inline-flex items-center gap-3 font-body text-sm font-semibold uppercase tracking-[0.1em] text-[#5A6478] transition-colors duration-200 hover:text-[#0A1628]"
+            className="g9-cta inline-flex items-center gap-3 font-body text-sm font-semibold uppercase tracking-[0.1em] text-[#D94520]/70 transition-colors duration-200 hover:text-[#D94520]"
           >
             Projektübersicht
-            <span className="text-[#0E2A6B]">→</span>
+            <span className="text-[#D94520]">→</span>
           </a>
         </div>
 

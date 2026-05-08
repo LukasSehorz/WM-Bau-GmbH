@@ -30,7 +30,7 @@ export function Cta33() {
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a
                 href="/kontakt"
-                className="inline-flex items-center bg-hoser-gold px-8 py-3 font-body text-sm font-semibold tracking-wide text-white transition-colors duration-200 hover:bg-hoser-gold-light"
+                className="inline-flex items-center bg-hoser-gold px-8 py-3 font-body text-sm font-semibold tracking-wide text-text-primary transition-colors duration-200 hover:bg-hoser-gold-light"
               >
                 Kostenlos beraten lassen
               </a>

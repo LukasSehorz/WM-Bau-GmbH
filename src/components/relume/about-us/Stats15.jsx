@@ -16,7 +16,7 @@ export function Stats15() {
         <img
           src="/images/munich-residential.jpg"
           className="size-full object-cover"
-          alt="Schmid-Bau Bauprojekt"
+          alt="Bauunternehmen Härtl Bauprojekt"
         />
         <div className="absolute inset-0 bg-text-primary/75" />
       </div>
@@ -27,11 +27,11 @@ export function Stats15() {
               Das Unternehmen in Zahlen
             </p>
             <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-white md:mb-6 md:text-5xl lg:text-6xl">
-              Berglern.<br />Seit drei Generationen.
+              Velden.<br />Seit drei Generationen.
             </h2>
             <p className="font-body text-base text-white/65 md:text-lg">
-              Gegründet von Michael Schmid-Bau, weitergeführt von Dieter und Manfred Schmid-Bau,
-              heute geleitet von Claudia Schmid-Bau und Michael Schmid.
+              Gegründet von Michael Bauunternehmen Härtl, weitergeführt von Dieter und Manfred Bauunternehmen Härtl,
+              heute geleitet von Claudia Bauunternehmen Härtl und Georg Härtl.
             </p>
             <div className="mt-8">
               <a

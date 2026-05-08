@@ -56,7 +56,7 @@ export function Team5() {
               />
             </div>
             <div className="mb-3 md:mb-4">
-              <h5 className="text-md font-semibold md:text-lg">Anna Richter</h5>
+              <h5 className="text-md font-semibold md:text-lg">Christian Wendelborn</h5>
               <h6 className="md:text-md">Project manager</h6>
             </div>
             <p>

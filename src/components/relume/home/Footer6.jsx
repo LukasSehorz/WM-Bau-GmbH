@@ -86,7 +86,7 @@ export function Footer6() {
             />
             <button
               type="submit"
-              className="shrink-0 bg-hoser-gold px-5 font-body text-sm font-semibold tracking-wide text-white transition-colors duration-200 hover:bg-hoser-gold-light"
+              className="shrink-0 bg-hoser-gold px-5 font-body text-sm font-semibold tracking-wide text-text-primary transition-colors duration-200 hover:bg-hoser-gold-light"
             >
               Abonnieren
             </button>
@@ -119,10 +119,10 @@ export function Footer6() {
         {/* Bottom bar */}
         <div className="border-t border-border-alternative pt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
           <a href="/" className="font-heading text-base font-bold tracking-[0.12em] uppercase text-text-alternative">
-            Schmid-Bau
+            Bauunternehmen Härtl
           </a>
           <p className="font-body text-xs text-text-alternative/40">
-            © {new Date().getFullYear()} Schmid-Bau GmbH. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Baugeschäft GmbH Georg Härtl. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>

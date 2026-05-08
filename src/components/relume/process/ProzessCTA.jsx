@@ -37,7 +37,7 @@ export function ProzessCTA() {
     <section
       ref={sectionRef}
       className="relative min-h-screen w-full overflow-hidden flex items-center"
-      style={{ background: "#0E2A6B" }}
+      style={{ background: "#D94520" }}
     >
       {/* Background photo */}
       <img
@@ -160,7 +160,7 @@ export function ProzessCTA() {
           <a
             href="#kontakt"
             className="cta-btn group relative inline-flex items-center gap-4 overflow-hidden px-8 py-[18px] font-body text-[0.7rem] font-semibold uppercase tracking-[0.22em]"
-            style={{ background: "#FFFFFF", color: "#0E2A6B" }}
+            style={{ background: "#FFFFFF", color: "#D94520" }}
           >
             <span className="relative z-10">Erstgespräch vereinbaren</span>
             <svg

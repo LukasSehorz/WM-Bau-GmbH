@@ -18,7 +18,7 @@ export function Header65() {
         <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:mt-8">
           <a
             href="#projekte"
-            className="inline-flex items-center bg-hoser-gold px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-white transition-opacity duration-200 hover:opacity-85"
+            className="inline-flex items-center bg-hoser-gold px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.1em] text-text-primary transition-opacity duration-200 hover:opacity-85"
           >
             Projekte entdecken
           </a>

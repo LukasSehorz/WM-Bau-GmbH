@@ -6,12 +6,12 @@ import { gsap } from "../../../utils/gsap";
 
 const faqs = [
   {
-    q: "Welche Leistungen bietet Schmid-Bau GmbH an?",
+    q: "Welche Leistungen bietet Baugeschäft GmbH Georg Härtl an?",
     a: "Wir bieten Schlüsselfertiges Bauen, Planung, Rohbau, Renovierung & Sanierung, Tiefbau, landwirtschaftliche Hallen, Baustoffhandel, Transporte, Gerüstbau sowie Ladekranarbeiten an — alles aus einer Hand.",
   },
   {
     q: "Wie lange sind Sie schon im Geschäft?",
-    a: "Seit 1992. Als Familienbetrieb gegründet, übernahm Michael Schmid 2007 das väterliche Unternehmen. Seit 2015 sind wir in einer ehemaligen Schnapsbrennerei in Berglern ansässig — ein Standort mit Charakter.",
+    a: "Seit 1992. Als Familienbetrieb gegründet, übernahm Georg Härtl 2007 das väterliche Unternehmen. Seit 2015 sind wir in einer ehemaligen Schnapsbrennerei in Velden ansässig — ein Standort mit Charakter.",
   },
   {
     q: "Welche Regionen betreuen Sie?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "Wie nehme ich Kontakt auf?",
-    a: "Rufen Sie uns an unter 08762 / 426420 oder schreiben Sie uns an schmid-bau@gmx.net. Sie finden uns in der Kreuzstraße 19, 85459 Berglern — wir melden uns schnellstmöglich.",
+    a: "Rufen Sie uns an unter 08742 965080 oder schreiben Sie uns an info@bauunternehmen-haertl.de. Sie finden uns in der Martinsberg 6, 84149 Velden — wir melden uns schnellstmöglich.",
   },
 ];
 
@@ -120,7 +120,7 @@ export function Faq14() {
         aria-hidden="true"
       >
         <span
-          className="font-heading font-bold leading-none text-[#0E2A6B]"
+          className="font-heading font-bold leading-none text-[#D94520]"
           style={{
             fontSize: "clamp(8rem, 22vw, 26rem)",
             opacity: 0.045,
@@ -138,20 +138,20 @@ export function Faq14() {
         <div className="mb-16 md:mb-20 grid grid-cols-1 gap-6 md:grid-cols-[1fr_auto] md:items-end">
           <div>
             <div className="mb-5 flex items-center gap-4">
-              <div className="faq-eyebrow-line h-px w-8 bg-[#0E2A6B]" />
-              <p className="faq-eyebrow-label font-body text-xs font-semibold uppercase tracking-[0.32em] text-[#0E2A6B]">
+              <div className="faq-eyebrow-line h-px w-8 bg-[#D94520]" />
+              <p className="faq-eyebrow-label font-body text-xs font-semibold uppercase tracking-[0.32em] text-[#D94520]">
                 Häufige Fragen
               </p>
             </div>
             <h2
-              className="font-heading font-bold leading-[1.02] tracking-tight text-[#0A1628]"
+              className="font-heading font-bold leading-[1.02] tracking-tight text-[#D94520]"
               style={{ fontSize: "clamp(2.8rem, 6vw, 6rem)" }}
             >
               <span className="block" style={{ overflow: "hidden", paddingBottom: "0.05em" }}>
                 <span className="faq-headline-inner block">Was Sie wissen</span>
               </span>
               <span className="block" style={{ overflow: "hidden", paddingBottom: "0.05em" }}>
-                <em className="faq-headline-inner not-italic text-[#0E2A6B]/35 block">wollen.</em>
+                <em className="faq-headline-inner not-italic text-[#D94520]/35 block">wollen.</em>
               </span>
             </h2>
           </div>
@@ -165,21 +165,21 @@ export function Faq14() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -8 }}
                 transition={{ duration: 0.25 }}
-                className="font-heading text-5xl font-bold tabular-nums text-[#0E2A6B]/15"
+                className="font-heading text-5xl font-bold tabular-nums text-[#D94520]/15"
               >
                 {openIdx !== null ? String(openIdx + 1).padStart(2, "0") : "—"}
               </motion.span>
             </AnimatePresence>
-            <span className="font-body text-xs text-[#5A6478] tracking-widest">
+            <span className="font-body text-xs text-[#D94520]/70 tracking-widest">
               / {String(faqs.length).padStart(2, "0")}
             </span>
           </div>
         </div>
 
         {/* Progress bar */}
-        <div className="faq-track mb-0 h-px w-full bg-[#0E2A6B]/10" />
+        <div className="faq-track mb-0 h-px w-full bg-[#D94520]/10" />
         <motion.div
-          className="mb-0 h-px bg-[#0E2A6B] origin-left"
+          className="mb-0 h-px bg-[#D94520] origin-left"
           animate={{
             scaleX: openIdx !== null ? (openIdx + 1) / faqs.length : 0,
           }}
@@ -205,7 +205,7 @@ export function Faq14() {
                     style={{
                       fontSize: "clamp(0.7rem, 1.2vw, 0.85rem)",
                       letterSpacing: "0.1em",
-                      color: isOpen ? "#0E2A6B" : "rgba(10,22,40,0.32)",
+                      color: isOpen ? "#D94520" : "rgba(10,22,40,0.32)",
                       paddingTop: "0.35em",
                     }}
                   >
@@ -227,7 +227,7 @@ export function Faq14() {
                   <div className="relative shrink-0 mt-1 flex h-7 w-7 items-center justify-center">
                     <span
                       className="absolute block h-px w-3.5 transition-colors duration-300"
-                      style={{ background: isOpen ? "#0E2A6B" : "rgba(10,22,40,0.35)" }}
+                      style={{ background: isOpen ? "#D94520" : "rgba(10,22,40,0.35)" }}
                     />
                     <motion.span
                       className="absolute block h-px w-3.5"
@@ -235,7 +235,7 @@ export function Faq14() {
                       transition={{ duration: 0.3, ease: EASE }}
                       style={{
                         rotate: "90deg",
-                        background: isOpen ? "#0E2A6B" : "rgba(10,22,40,0.35)",
+                        background: isOpen ? "#D94520" : "rgba(10,22,40,0.35)",
                       }}
                     />
                   </div>
@@ -255,9 +255,9 @@ export function Faq14() {
                       <div className="flex gap-5 md:gap-8 pb-8">
                         {/* Blue left accent */}
                         <div className="shrink-0" style={{ width: "clamp(0.7rem, 1.2vw, 0.85rem)" }}>
-                          <div className="h-full w-px bg-[#0E2A6B]/50 ml-auto" />
+                          <div className="h-full w-px bg-[#D94520]/50 ml-auto" />
                         </div>
-                        <p className="font-body text-sm leading-relaxed text-[#5A6478] md:text-base max-w-2xl">
+                        <p className="font-body text-sm leading-relaxed text-[#D94520]/70 md:text-base max-w-2xl">
                           {faq.a}
                         </p>
                       </div>
@@ -268,7 +268,7 @@ export function Faq14() {
                 {/* Separator */}
                 <div
                   className="h-px w-full transition-colors duration-300"
-                  style={{ background: isOpen ? "rgba(14,42,107,0.18)" : "rgba(14,42,107,0.08)" }}
+                  style={{ background: isOpen ? "rgba(14,42,107,0.18)" : "rgba(217,69,32,0.08)" }}
                 />
               </div>
             );
@@ -277,12 +277,12 @@ export function Faq14() {
 
         {/* CTA */}
         <div className="faq-cta mt-16 flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-          <p className="font-body text-sm text-[#5A6478]">
+          <p className="font-body text-sm text-[#D94520]/70">
             Noch weitere Fragen? Wir sind persönlich für Sie da.
           </p>
           <a
             href="/kontakt"
-            className="group inline-flex items-center gap-4 border border-[#0E2A6B]/30 px-8 py-4 font-body text-sm font-semibold tracking-widest text-[#0E2A6B] uppercase transition-all duration-300 hover:bg-[#0E2A6B] hover:text-white"
+            className="group inline-flex items-center gap-4 border border-[#D94520]/30 px-8 py-4 font-body text-sm font-semibold tracking-widest text-[#D94520] uppercase transition-all duration-300 hover:bg-[#D94520] hover:text-white"
           >
             Kontakt aufnehmen
             <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
