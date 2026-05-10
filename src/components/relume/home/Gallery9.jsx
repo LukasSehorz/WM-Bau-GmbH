@@ -6,24 +6,24 @@ import { gsap } from "../../../utils/gsap";
 const projects = [
   {
     id: "01",
-    image: "/images/munich-residential.jpg",
+    image: "/images/Beispiel-Projekte/LP1.jpg",
     title: "Wohnanlage München/Trudering",
     category: "Wohnungsbau · 97 WE + Tiefgarage",
-    year: "2008",
+    year: "2023",
   },
   {
     id: "02",
-    image: "/images/wohnpark-haydn.jpg",
-    title: "Wohnpark Haydn, Velden",
+    image: "/images/Beispiel-Projekte/LP2.jpg",
+    title: "Wohnpark Haydn, Dorfen",
     category: "Wohnungsbau · 56 WE + Tiefgarage",
-    year: "2015",
+    year: "2024",
   },
   {
     id: "03",
-    image: "/images/craftsmen-stone-facade.jpg",
-    title: "Firma Seidenader, Velden",
-    category: "Industriebau · Produktionshalle + Büro",
-    year: "2007",
+    image: "/images/projekt-03.png",
+    title: "Einfamilienhaus, Dorfen",
+    category: "Wohnbau · Schlüsselfertig",
+    year: "2024",
   },
 ];
 

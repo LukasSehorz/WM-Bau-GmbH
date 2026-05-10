@@ -119,10 +119,10 @@ export function Footer6() {
         {/* Bottom bar */}
         <div className="border-t border-border-alternative pt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
           <a href="/" className="font-heading text-base font-bold tracking-[0.12em] uppercase text-text-alternative">
-            Bauunternehmen Härtl
+            WM Bau GmbH
           </a>
           <p className="font-body text-xs text-text-alternative/40">
-            © {new Date().getFullYear()} Baugeschäft GmbH Georg Härtl. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} WM Bau GmbH. Alle Rechte vorbehalten.
           </p>
         </div>
       </div>

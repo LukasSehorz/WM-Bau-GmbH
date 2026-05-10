@@ -158,7 +158,7 @@ export function HeroLeistungen() {
       <img
         ref={imageRef}
         src="/images/leistungen-hero.jpg"
-        alt="Baugeschäft GmbH Georg Härtl – Leistungen"
+        alt="WM Bau GmbH – Leistungen"
         className="absolute inset-0 h-full w-full object-cover"
         style={{ willChange: "transform, filter" }}
       />
@@ -235,7 +235,7 @@ export function HeroLeistungen() {
                   Standort
                 </span>
                 <span className="font-heading text-lg font-semibold text-white">
-                  Velden · Erding
+                  Dorfen · Erding
                 </span>
               </div>
             </div>

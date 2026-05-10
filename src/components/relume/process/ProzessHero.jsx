@@ -44,7 +44,7 @@ export function ProzessHero() {
       {/* Background image */}
       <img
         src="/images/prozess-hero.jpg"
-        alt="Baugeschäft GmbH Georg Härtl – Prozess"
+        alt="WM Bau GmbH – Prozess"
         className="prozess-hero-bg absolute inset-0 h-full w-full object-cover object-center"
         style={{ willChange: "transform" }}
       />
@@ -52,7 +52,7 @@ export function ProzessHero() {
       <div
         className="absolute inset-0"
         style={{
-          background: "linear-gradient(to right, rgba(14,42,107,0.82) 0%, rgba(14,42,107,0.60) 40%, rgba(14,42,107,0.25) 75%, rgba(14,42,107,0.05) 100%)",
+          background: "linear-gradient(to right, rgba(4,13,28,0.95) 0%, rgba(4,13,28,0.82) 40%, rgba(4,13,28,0.50) 70%, rgba(4,13,28,0.18) 100%)",
         }}
       />
 

@@ -8,30 +8,30 @@ gsap.registerPlugin(ScrollTrigger);
 
 const milestones = [
   {
-    year: "1992",
+    year: "2020",
     title: "Die Gründung",
-    desc: "Das Bauunternehmen Härtl wird als Familienbetrieb gegründet. Von Anfang an stehen Handwerk, Verlässlichkeit und persönliche Betreuung im Mittelpunkt.",
-    detail: "Was als Familienbetrieb in der Region Erding begann, legte den Grundstein für über drei Jahrzehnte Erfahrung im bayerischen Bauhandwerk.",
-    img: "/images/timeline/1952.jpg",
+    desc: "Lukas Winter und Philip Marsmann gründen die WM Bau GmbH in Dorfen. Von Anfang an stehen Qualität, Verlässlichkeit und persönliche Betreuung im Mittelpunkt.",
+    detail: "Was in Dorfen im Landkreis Erding begann, legte den Grundstein für ein modernes, leistungsstarkes Bauunternehmen in der Region.",
+    img: "/images/timeline/gruendung.jpg",
   },
   {
-    year: "2007",
-    title: "Georg Härtl übernimmt",
-    desc: "Georg Härtl übernimmt das väterliche Unternehmen und führt es mit denselben Grundwerten weiter: Qualität, Verlässlichkeit und persönliche Betreuung.",
-    detail: "Unter seiner Führung wächst das Leistungsspektrum kontinuierlich – stets mit dem Anspruch, Bauprojekte termingerecht und auf höchstem handwerklichen Niveau umzusetzen.",
-    img: "/images/timeline/1970.jpg",
+    year: "2021",
+    title: "Erste Projekte",
+    desc: "Das Team wächst und erste Referenzprojekte entstehen – von Rohbau über Sanierung bis hin zu schlüsselfertigen Bauprojekten in der Region.",
+    detail: "Mit eigenem Fachpersonal und moderner Ausstattung übernimmt WM Bau GmbH Projekte termingerecht und auf höchstem handwerklichen Niveau.",
+    img: "/images/timeline/erste-projekte.jpg",
   },
   {
-    year: "2015",
-    title: "Neue Heimat",
-    desc: "Bauunternehmen Härtl zieht in eine ehemalige Schnapsbrennerei in Velden ein – ein Ort mit Geschichte und Charakter, der perfekt zum Unternehmen passt.",
-    detail: "Das neue Betriebsgelände bietet optimale Voraussetzungen für Fuhrpark, Maschinen und Lager – eine solide Basis für alle Gewerke.",
-    img: "/images/timeline/1990.jpg",
+    year: "2022",
+    title: "Wachstum & Ausbau",
+    desc: "Erweiterung des Leistungsspektrums und des Fuhrparks. WM Bau GmbH etabliert sich als zuverlässiger Partner für Privat- und Gewerbekunden.",
+    detail: "Das Betriebsgelände in Breitenloh 1, Dorfen, bietet optimale Voraussetzungen für Fuhrpark, Maschinen und Lager – eine solide Basis für alle Gewerke.",
+    img: "/images/timeline/wachstum.jpg",
   },
   {
     year: "Heute",
-    title: "30+ Jahre Baukultur",
-    desc: "Über 30 Jahre nach der Gründung steht das Bauunternehmen Härtl für bayerisches Handwerk auf höchstem Niveau – mit einem erfahrenen Team und einem breiten Leistungsspektrum.",
+    title: "Etabliert in der Region",
+    desc: "WM Bau GmbH steht für bayerisches Handwerk auf höchstem Niveau – mit einem erfahrenen Team und einem breiten Leistungsspektrum aus einer Hand.",
     detail: "Von schlüsselfertigem Wohnungsbau über Rohbau und Renovierung bis zu Tiefbau, Gerüst und Transporten – zuverlässig und persönlich für Bauherren in der Region.",
     img: "/images/timeline/heute.jpg",
   },
@@ -191,7 +191,7 @@ export function Geschichte() {
         <div className="container relative z-10">
           <div className="max-w-2xl">
             <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
-              Seit 1992
+              Seit 2020
             </p>
             <h2
               ref={headingRef}
@@ -201,7 +201,7 @@ export function Geschichte() {
               Unsere Geschichte
             </h2>
             <p ref={subRef} className="font-body text-base leading-relaxed text-[#0A1628]/55">
-              Familienunternehmen seit 1992.<br />Ein Anspruch: Projekte für Generationen.
+              Gegründet 2020 in Dorfen.<br />Ein Anspruch: Projekte für Generationen.
             </p>
           </div>
         </div>

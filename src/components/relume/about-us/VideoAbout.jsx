@@ -77,7 +77,7 @@ export function VideoAbout() {
         {/* Text above */}
         <div className="mb-8 md:mb-10">
           <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-hoser-gold">
-            1952 bis heute
+            2020 bis heute
           </p>
           <h2
             ref={headingRef}
@@ -103,7 +103,7 @@ export function VideoAbout() {
 
         {/* Text below */}
         <p ref={paraRef} className="mt-6 font-body text-base leading-relaxed text-[#0A1628]/60 md:text-lg max-w-xl">
-          Was Michael Bauunternehmen Härtl 1952 mit drei Mitarbeitern begann, tragen heute
+          Was 2020 mit klaren Werten begann, trägt WM Bau GmbH heute
           über 60 Fachkräfte weiter. Die Werte haben sich nicht verändert –
           nur die Möglichkeiten, sie umzusetzen.
         </p>

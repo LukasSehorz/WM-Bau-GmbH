@@ -4,16 +4,8 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "../../../utils/gsap";
 
 const team = [
-  { name: "Georg Härtl",     role: "Geschäftsführer",            img: "/images/michael-schmid.png" },
-  { name: "Maurermeister",      role: "Hochbau & Rohbau",           img: "/images/team/mason.jpg" },
-  { name: "Polier",             role: "Bauleitung",                 img: "/images/team/polier.jpg" },
-  { name: "Kranführer",         role: "Ladekran & Transport",       img: "/images/team/crane_op.jpg" },
-  { name: "Tiefbauer",          role: "Tiefbau & Erdarbeiten",      img: "/images/team/kanal.jpg" },
-  { name: "Gerüstbauer",        role: "Gerüstbau",                  img: "/images/team/site_manager.jpg" },
-  { name: "Fahrer",             role: "Schüttgut & Transporte",     img: "/images/team/excavator.jpg" },
-  { name: "Baustoffhandel",     role: "Lager & Beratung",           img: "/images/team/concrete.jpg" },
-  { name: "Baufachkraft",       role: "Sanierung & Renovierung",    img: "/images/team/apprentice.jpg" },
-  { name: "Büro",               role: "Administration",             img: "/images/team/office_woman1.jpg" },
+  { name: "Lukas Winter",   role: "Geschäftsführer", img: "/images/lukas-winter.png" },
+  { name: "Philip Marsmann", role: "Geschäftsführer", img: "/images/philip-marsmann.png" },
 ];
 
 const splitWords = (el, text) => {
@@ -79,7 +71,7 @@ export function Team() {
             start: "top 92%",
             toggleActions: "play none none reverse",
           },
-          delay: (idx % 5) * 0.06 + Math.floor(idx / 5) * 0.04,
+          delay: idx * 0.15,
           defaults: { force3D: true },
         })
           .to(photo, { clipPath: "inset(0% 0 0 0)", duration: 0.9, ease: "expo.inOut" })
@@ -99,7 +91,7 @@ export function Team() {
         {/* Heading */}
         <div className="mb-14 md:mb-18">
           <p ref={eyebrowRef} className="mb-3 font-body text-sm font-semibold uppercase tracking-[0.25em] text-[#D94520]">
-            Menschen bei Bauunternehmen Härtl
+            Menschen bei WM Bau GmbH
           </p>
           <h2
             ref={headingRef}
@@ -109,12 +101,12 @@ export function Team() {
             Unser Team
           </h2>
           <p ref={subRef} className="mt-4 max-w-xl font-body text-base text-[#0A1628]/60">
-            Zehnköpfiges Team mit breitem Leistungsspektrum – von Hochbau bis Transporte.
+            Lukas Winter und Philip Marsmann führen die WM Bau GmbH gemeinsam – mit Leidenschaft für Qualität und handwerklicher Präzision.
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div className="grid grid-cols-2 gap-8 max-w-2xl mx-auto md:gap-12">
           {team.map((member, idx) => (
             <div
               key={member.name}

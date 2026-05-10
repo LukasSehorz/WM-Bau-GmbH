@@ -236,7 +236,7 @@ export function VideoSection() {
                   className="font-bold"
                   style={{
                     textDecoration: "underline",
-                    textDecorationColor: "#7A8FC8",
+                    textDecorationColor: "rgba(240, 112, 64, 0.65)",
                     textUnderlineOffset: "6px",
                     textDecorationThickness: "2px",
                   }}
@@ -252,7 +252,7 @@ export function VideoSection() {
                   className="font-bold"
                   style={{
                     textDecoration: "underline",
-                    textDecorationColor: "#7A8FC8",
+                    textDecorationColor: "rgba(240, 112, 64, 0.65)",
                     textUnderlineOffset: "6px",
                     textDecorationThickness: "2px",
                   }}
@@ -262,7 +262,6 @@ export function VideoSection() {
               </span>
             </div>
           </div>
-          <div className="vs-divider mt-8 h-px w-16 bg-white/70" />
         </div>
 
         {/* Key facts overlay — appears AFTER the title fades */}

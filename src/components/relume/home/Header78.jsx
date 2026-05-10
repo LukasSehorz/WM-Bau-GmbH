@@ -144,11 +144,11 @@ export function Header78() {
       id="hero-section"
       ref={sectionRef}
       className="relative overflow-hidden"
-      style={{ height: "calc(100vh - 4.5rem)", cursor: "none" }}
+      style={{ height: "calc(100vh - 4.5rem)", cursor: "none", backgroundColor: "#040D1C" }}
     >
       {/* ── Bild 1: Rohbau — vollflächiger Hintergrund ── */}
       <img
-        src="/images/bild1.png"
+        src="/images/hero-vorher.png"
         alt="Gebäude im Rohbau"
         className="hero-bg-img absolute inset-0 h-full w-full object-cover object-center"
         style={{ willChange: "transform", filter: "saturate(0.92) brightness(1.04)" }}
@@ -166,7 +166,7 @@ export function Header78() {
       {/* ── Bild 2: Fertig — Hover-Reveal (clip-path driven directly via DOM) ── */}
       <img
         ref={imageRef}
-        src="/images/bild2.png"
+        src="/images/hero-nachher.png"
         alt="Fertiggestelltes Gebäude"
         className="absolute inset-0 h-full w-full object-cover object-center"
         style={{
@@ -203,7 +203,7 @@ export function Header78() {
           <span className="hero-eyebrow-line h-px w-10 flex-shrink-0" style={{ background: "#F07040" }} />
           <div style={{ overflow: "hidden" }}>
             <p className="hero-eyebrow-inner font-body text-xs font-semibold uppercase tracking-[0.28em]" style={{ color: "#F07040" }}>
-              Velden · Gegründet 1992
+              Dorfen · Gegründet 2020
             </p>
           </div>
         </div>
@@ -216,21 +216,21 @@ export function Header78() {
           <span className="block" style={{ overflow: "hidden", paddingBottom: "0.1em" }}>
             <span className="hero-headline-inner block">
               Bauen,{" "}
-              <em className="italic" style={{ color: "#F07040" }}>das bleibt.</em>
+              <em className="italic" style={{ color: "#FFFFFF" }}>das bleibt.</em>
             </span>
           </span>
           <span className="block" style={{ overflow: "hidden", paddingBottom: "0.1em" }}>
             <span className="hero-headline-inner block">
-              Seit 1992.
+              Seit 2020.
             </span>
           </span>
         </h1>
 
         {/* Body */}
         <p className="hero-body mb-16 max-w-[440px] font-body text-base leading-relaxed text-white/70 md:text-lg">
-          Schlüsselfertiges Bauen, Rohbau, Sanierung, Tiefbau und mehr aus Velden.
-          Baugeschäft GmbH Georg Härtl steht seit 1992 für Persönlichkeit, Beständigkeit
-          und Projekte für Generationen.
+          Schlüsselfertiges Bauen, Rohbau, Sanierung, Tiefbau und mehr aus Dorfen.
+          WM Bau GmbH steht seit 2020 für Qualität, Verlässlichkeit
+          und Projekte, die bleiben.
         </p>
 
         {/* CTAs — both get the fill-on-hover effect */}

@@ -6,20 +6,20 @@ import { gsap } from "../../../utils/gsap";
 
 const faqs = [
   {
-    q: "Welche Leistungen bietet Baugeschäft GmbH Georg Härtl an?",
-    a: "Wir bieten Schlüsselfertiges Bauen, Planung, Rohbau, Renovierung & Sanierung, Tiefbau, landwirtschaftliche Hallen, Baustoffhandel, Transporte, Gerüstbau sowie Ladekranarbeiten an — alles aus einer Hand.",
+    q: "Welche Leistungen bietet WM Bau GmbH an?",
+    a: "Wir bieten Schlüsselfertiges Bauen, Planung, Rohbau, Renovierung & Sanierung, Tiefbau, landwirtschaftliche Hallen, Transporte, Gerüstbau sowie Ladekranarbeiten an — alles aus einer Hand.",
   },
   {
-    q: "Wie lange sind Sie schon im Geschäft?",
-    a: "Seit 1992. Als Familienbetrieb gegründet, übernahm Georg Härtl 2007 das väterliche Unternehmen. Seit 2015 sind wir in einer ehemaligen Schnapsbrennerei in Velden ansässig — ein Standort mit Charakter.",
+    q: "In welcher Region sind Sie tätig?",
+    a: "Unser Schwerpunkt liegt in Dorfen und der Region Erding. Wir sind jedoch für Bauvorhaben weit über die Region hinaus der richtige Ansprechpartner.",
   },
   {
-    q: "Welche Regionen betreuen Sie?",
-    a: "Unser Schwerpunkt liegt in der Region Erding und Umgebung. Wir sind jedoch weit über die Region hinaus bekannt und für jedes Bauvorhaben der richtige Ansprechpartner.",
+    q: "Wann sind Sie erreichbar?",
+    a: "Montag bis Freitag von 7:00 bis 18:00 Uhr, Samstag von 7:00 bis 12:00 Uhr. Sonntags sind wir geschlossen.",
   },
   {
     q: "Arbeiten Sie mit eigenem Personal oder Subunternehmern?",
-    a: "Wir setzen auf eigenes, ausgebildetes Fachpersonal. Unser zehnköpfiges Team übernimmt alle Leistungen selbst — von Hochbau über Tiefbau bis zu Transporten und Gerüstbau.",
+    a: "Wir setzen auf eigenes, ausgebildetes Fachpersonal. Unser Team übernimmt alle Leistungen selbst — von Hochbau über Tiefbau bis zu Transporten und Gerüstbau.",
   },
   {
     q: "Können Sie auch Renovierungen und Sanierungen durchführen?",
@@ -27,7 +27,7 @@ const faqs = [
   },
   {
     q: "Wie nehme ich Kontakt auf?",
-    a: "Rufen Sie uns an unter 08742 965080 oder schreiben Sie uns an info@bauunternehmen-haertl.de. Sie finden uns in der Martinsberg 6, 84149 Velden — wir melden uns schnellstmöglich.",
+    a: "Rufen Sie uns an unter 0151 58 72 01 08 oder schreiben Sie uns an info@wmbau.com. Sie finden uns in der Breitenloh 1, 84405 Dorfen — wir melden uns schnellstmöglich.",
   },
 ];
 

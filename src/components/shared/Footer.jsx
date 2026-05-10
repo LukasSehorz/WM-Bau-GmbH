@@ -61,7 +61,7 @@ export function Footer() {
         style={{ fontSize: "clamp(6rem, 18vw, 22rem)", opacity: 0.04, letterSpacing: "-0.02em", lineHeight: 0.85 }}
         aria-hidden="true"
       >
-        SCHMID
+        WM BAU
       </div>
 
       <div className="container relative px-[5%] pt-16 pb-10 md:pt-24 md:pb-12">
@@ -83,44 +83,41 @@ export function Footer() {
                 />
               </svg>
               <span className="font-heading text-lg font-bold tracking-[0.1em] uppercase text-white">
-                Bauunternehmen Härtl
-              </span>
-              <span className="font-heading text-[0.6rem] font-semibold tracking-[0.18em] uppercase text-white/50 self-end pb-[2px]">
-                GmbH
+                WM Bau GmbH
               </span>
             </Link>
 
             <p className="mb-8 font-body text-sm leading-relaxed text-white/45 max-w-[22ch]">
-              Seit 1992 bauen wir Qualität in der Region Erding. Persönlichkeit und Beständigkeit.
+              Ihr zuverlässiger Baupartner in der Region Dorfen. Qualität aus einer Hand.
             </p>
 
             {/* Contact */}
             <div className="space-y-3">
               <a
-                href="tel:+4908742965080"
+                href="tel:+4915158720108"
                 className="flex items-center gap-3 font-body text-sm text-white/55 transition-colors duration-200 hover:text-white"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.36h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
                 </svg>
-                08742 965080
+                0151 58 72 01 08
               </a>
               <a
-                href="mailto:info@bauunternehmen-haertl.de"
+                href="mailto:info@wmbau.com"
                 className="flex items-center gap-3 font-body text-sm text-white/55 transition-colors duration-200 hover:text-white"
               >
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60">
                   <rect x="2" y="4" width="20" height="16" rx="2"/>
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
                 </svg>
-                info@bauunternehmen-haertl.de
+                info@wmbau.com
               </a>
               <p className="flex items-start gap-3 font-body text-sm text-white/40">
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 opacity-60 mt-0.5">
                   <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/>
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
-                Velden · Landkreis Erding
+                Breitenloh 1 · 84405 Dorfen
               </p>
             </div>
           </div>
@@ -150,7 +147,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-body text-xs text-white/25">
-            © {new Date().getFullYear()} Baugeschäft GmbH Georg Härtl. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} WM Bau GmbH. Alle Rechte vorbehalten.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="font-body text-xs text-white/30 transition-colors duration-200 hover:text-white/60">

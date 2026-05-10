@@ -23,7 +23,7 @@ const reviews = [
     name: "Manuela Hiermer",
     label: "Google Rezension, 5/5 Sterne",
     quote:
-      "Teil 2 der Rezension: Auch nach der Fertigstellung stand das Team jederzeit für Rückfragen zur Verfügung. Selten so einen guten Service erlebt – Härtl ist erste Wahl!",
+      "Teil 2 der Rezension: Auch nach der Fertigstellung stand das Team jederzeit für Rückfragen zur Verfügung. Selten so einen guten Service erlebt – WM Bau GmbH ist erste Wahl!",
   },
 ];
 

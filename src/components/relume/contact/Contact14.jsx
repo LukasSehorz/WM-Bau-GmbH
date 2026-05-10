@@ -31,8 +31,8 @@ export function Contact14() {
           {/* Right: Google Maps */}
           <div className="overflow-hidden rounded-sm" style={{ minHeight: 280 }}>
             <iframe
-              title="Baugeschäft GmbH Georg Härtl Standort"
-              src="https://maps.google.com/maps?q=Martinsberg+6%2C+84149+Velden&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="WM Bau GmbH Standort"
+              src="https://maps.google.com/maps?q=Breitenloh+1%2C+84405+Dorfen&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 280 }}
@@ -53,13 +53,13 @@ export function Contact14() {
               Telefon
             </h3>
             <p className="mb-2 font-body text-sm text-[#0A1628]/50">
-              Mo – Fr, 8:00 – 17:00 Uhr
+              Mo – Fr, 7:00 – 18:00 Uhr · Sa, 7:00 – 12:00 Uhr
             </p>
             <a
               className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#D94520]"
-              href="tel:+4908742965080"
+              href="tel:+4915158720108"
             >
-              08742 965080
+              0151 58 72 01 08
             </a>
           </div>
 
@@ -75,9 +75,9 @@ export function Contact14() {
             </p>
             <a
               className="font-body text-base font-semibold text-[#0A1628] transition-colors duration-200 hover:text-[#D94520]"
-              href="mailto:info@bauunternehmen-haertl.de"
+              href="mailto:info@wmbau.com"
             >
-              info@bauunternehmen-haertl.de
+              info@wmbau.com
             </a>
           </div>
 
@@ -89,8 +89,8 @@ export function Contact14() {
               Standort
             </h3>
             <p className="font-body text-base text-[#0A1628]/60">
-              Martinsberg 6<br />
-              84149 Velden
+              Breitenloh 1<br />
+              84405 Dorfen
             </p>
           </div>
         </div>

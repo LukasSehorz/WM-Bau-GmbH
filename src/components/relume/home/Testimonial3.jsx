@@ -29,7 +29,7 @@ const testimonials = [
     initials: "CW",
   },
   {
-    quote: "Teil 2 der Rezension: Auch nach der Fertigstellung stand das Team jederzeit für Rückfragen zur Verfügung. Selten so einen guten Service erlebt – Härtl ist erste Wahl!",
+    quote: "Teil 2 der Rezension: Auch nach der Fertigstellung stand das Team jederzeit für Rückfragen zur Verfügung. Selten so einen guten Service erlebt – WM Bau GmbH ist erste Wahl!",
     name: "Manuela Hiermer",
     role: "Google Rezension · 5/5 Sterne",
     initials: "MH",

@@ -6,18 +6,18 @@ import { gsap } from "../../../utils/gsap";
 const features = [
   {
     title: "Handwerk als Berufung",
-    body: "Gegründet 1992 als Familienbetrieb. Seit 2007 führt Georg Härtl das väterliche Unternehmen und setzt auf bewährte Werte: Qualität, Verlässlichkeit und persönliche Betreuung auf jedem Bauprojekt.",
-    image: "/images/craftsmen-stone-facade.jpg",
+    body: "Gegründet 2020 von Lukas Winter und Philip Marsmann. WM Bau GmbH setzt auf klare Werte: Qualität, Verlässlichkeit und persönliche Betreuung auf jedem Bauprojekt.",
+    image: "/images/layout-handwerk.jpg",
   },
   {
     title: "Persönlichkeit & Beständigkeit",
-    body: "Klare Angebote, direkte Kommunikation, ein Ansprechpartner. Mit unserem zehnköpfigen Team betreuen wir jedes Projekt von der Planung bis zur Schlüsselübergabe – zuverlässig und termintreu.",
-    image: "/images/team-blueprints.jpg",
+    body: "Klare Angebote, direkte Kommunikation, ein Ansprechpartner. Mit unserem Team betreuen wir jedes Projekt von der Planung bis zur Schlüsselübergabe – zuverlässig und termintreu.",
+    image: "/images/layout-persoenlichkeit.jpg",
   },
   {
     title: "Verwurzelt in der Region",
-    body: "Velden ist unsere Heimat. Seit 1992 bauen wir in der Region Erding und weit darüber hinaus. Seit 2015 finden Sie uns in einer ehemaligen Schnapsbrennerei – ein Ort mit Charakter, wie unsere Arbeit.",
-    image: "/images/munich-residential.jpg",
+    body: "Dorfen ist unsere Heimat. Seit 2020 bauen wir in der Region Erding und weit darüber hinaus. Sie finden uns in der Breitenloh 1 – zentral gelegen, direkt für Sie erreichbar.",
+    image: "/images/layout-region.jpg",
   },
 ];
 

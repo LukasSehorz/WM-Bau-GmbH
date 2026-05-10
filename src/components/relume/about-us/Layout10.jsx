@@ -12,12 +12,12 @@ export function Layout10() {
               Unsere Geschichte
             </p>
             <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-text-primary md:text-5xl lg:text-6xl">
-              Vom Maurerbetrieb zum Vollbauunternehmen
+              Gegründet 2020. Qualität aus einer Hand.
             </h2>
             <p className="mb-6 font-body text-base leading-relaxed text-text-secondary md:text-lg">
-              Michael Bauunternehmen Härtl gründete das Unternehmen 1952 als Maurerfirma mit drei Mitarbeitern in Velden.
-              Unter seinen Söhnen Dieter und Manfred Bauunternehmen Härtl wuchs es zu einem Bauunternehmen mit 30 Mitarbeitern heran.
-              Heute liegt die Geschäftsführung in den Händen von <strong className="text-text-primary font-semibold">Claudia Bauunternehmen Härtl</strong> und <strong className="text-text-primary font-semibold">Georg Härtl</strong> – bereits die dritte Generation.
+              <strong className="text-text-primary font-semibold">Lukas Winter</strong> und <strong className="text-text-primary font-semibold">Philip Marsmann</strong> gründeten die WM Bau GmbH 2020 in Dorfen.
+              Von Anfang an stand das Unternehmen für klare Werte: Qualität, Verlässlichkeit und persönliche Betreuung.
+              Mit eigenem Fachpersonal und moderner Ausstattung wächst WM Bau GmbH stetig in der Region Erding.
             </p>
             <p className="mb-8 font-body text-base leading-relaxed text-text-secondary md:text-lg">
               Unser Aufgabenschwerpunkt liegt in der Ausführung von Baumeisterarbeiten im Hoch-, Erd- und Kanalbau.
@@ -62,7 +62,7 @@ export function Layout10() {
             <img
               src="/images/craftsmen-stone-facade.jpg"
               className="w-full object-cover transition-transform duration-700 hover:scale-105"
-              alt="Baugeschäft GmbH Georg Härtl – Facharbeiter auf der Baustelle"
+              alt="WM Bau GmbH – Facharbeiter auf der Baustelle"
             />
           </div>
         </div>

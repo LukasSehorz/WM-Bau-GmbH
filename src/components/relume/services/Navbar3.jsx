@@ -61,7 +61,7 @@ export function Navbar3() {
         {/* Center: logo */}
         <a href="/" className="flex items-center justify-center py-4">
           <span className="font-heading text-lg font-bold tracking-[0.12em] text-text-primary uppercase">
-            Bauunternehmen Härtl
+            WM Bau GmbH
           </span>
         </a>
 
@@ -102,7 +102,7 @@ export function Navbar3() {
             >
               <div className="flex items-center justify-between py-5 mb-8 border-b border-border-primary">
                 <span className="font-heading text-xl font-bold tracking-[0.12em] uppercase text-text-primary">
-                  Bauunternehmen Härtl
+                  WM Bau GmbH
                 </span>
                 <button onClick={toggle} className="size-8 flex items-center justify-center text-text-primary text-2xl leading-none">
                   ×

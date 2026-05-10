@@ -521,7 +521,7 @@ export function ProzessPath() {
               letterSpacing: "0.25em", textTransform: "uppercase",
               color: "#D94520",
             }}>
-              Der Bauunternehmen Härtl-Prozess
+              Der WM Bau GmbH-Prozess
             </span>
           </div>
           <h2 style={{

@@ -10,17 +10,17 @@ const photos = [
     span: "col-span-2 row-span-2",
   },
   {
-    src: "/images/Beispiel-Projekte/Geruestbau-300x225.webp",
+    src: "/images/Beispiel-Projekte/Vor%20Ort%201.jpg",
     caption: "Gerüstbau für sichere und effiziente Arbeiten auf jeder Baustelle.",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/Beispiel-Projekte/Referenz5-300x170.webp",
+    src: "/images/Beispiel-Projekte/Vor%20Ort%202.jpg",
     caption: "Referenzprojekte aus dem Raum Erding und München – realisiert mit eigenem Fachpersonal.",
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/images/Beispiel-Projekte/Rohbau-300x225.webp",
+    src: "/images/Beispiel-Projekte/Vor%20Ort%203.jpg",
     caption: "Solider Rohbau als Basis für alle Folgegewerke – präzise und termingerecht.",
     span: "col-span-1 row-span-1",
   },

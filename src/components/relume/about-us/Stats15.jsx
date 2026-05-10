@@ -3,8 +3,8 @@
 import React from "react";
 
 const stats = [
-  { value: "1992", label: "Gründungsjahr" },
-  { value: "30+", label: "Jahre Erfahrung in der Region" },
+  { value: "2020", label: "Gründungsjahr" },
+  { value: "5+", label: "Jahre in der Region" },
   { value: "10", label: "Leistungen aus einer Hand" },
   { value: "10", label: "Mitarbeiter im Team" },
 ];
@@ -16,7 +16,7 @@ export function Stats15() {
         <img
           src="/images/munich-residential.jpg"
           className="size-full object-cover"
-          alt="Bauunternehmen Härtl Bauprojekt"
+          alt="WM Bau GmbH Bauprojekt"
         />
         <div className="absolute inset-0 bg-text-primary/75" />
       </div>
@@ -27,11 +27,11 @@ export function Stats15() {
               Das Unternehmen in Zahlen
             </p>
             <h2 className="mb-5 font-heading text-4xl font-bold leading-tight tracking-tight text-white md:mb-6 md:text-5xl lg:text-6xl">
-              Velden.<br />Seit drei Generationen.
+              Dorfen.<br />Qualität aus einer Hand.
             </h2>
             <p className="font-body text-base text-white/65 md:text-lg">
-              Gegründet von Michael Bauunternehmen Härtl, weitergeführt von Dieter und Manfred Bauunternehmen Härtl,
-              heute geleitet von Claudia Bauunternehmen Härtl und Georg Härtl.
+              Gegründet 2020 von Lukas Winter und Philip Marsmann –
+              heute ein etabliertes Bauunternehmen in der Region Dorfen und Erding.
             </p>
             <div className="mt-8">
               <a

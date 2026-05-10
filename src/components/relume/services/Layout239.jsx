@@ -101,7 +101,7 @@ export function Layout239() {
           const o = offsets[i];
           gsap.set(card, {
             x: o.dx,
-            y: o.dy + (i - 2) * 100,
+            y: o.dy + (i - 2) * 100 + 150,
             z: (4 - i) * 2,
             yPercent: 0,
             rotationX: 87,

@@ -25,7 +25,7 @@ const jobs = [
   {
     title: "Maurer (m/w/d)",
     type: "Vollzeit",
-    location: "Velden · Region Erding",
+    location: "Dorfen · Region Erding",
     desc: "Erstellung von Wänden, Mauern und Decken im Hochbau. Mitwirken bei Wohn- und Geschäftshäusern, Hallen, Ställen, Kellern und Bodenplatten.",
     anforderungen: [
       "Abgeschlossene Ausbildung als Maurer",
@@ -43,7 +43,7 @@ const jobs = [
   {
     title: "Kranfahrer (m/w/d)",
     type: "Vollzeit",
-    location: "Velden · Region Erding",
+    location: "Dorfen · Region Erding",
     desc: "Sichere und präzise Steuerung unserer Krane sowie Unterstützung des Teams bei Hebe- und Transportarbeiten auf unseren Baustellen.",
     anforderungen: [
       "Kranführerschein (und idealerweise Erfahrung am Haken)",
@@ -61,7 +61,7 @@ const jobs = [
   {
     title: "Bauhelfer (m/w/d)",
     type: "Vollzeit",
-    location: "Velden · Region Erding",
+    location: "Dorfen · Region Erding",
     desc: "Unterstützen bei verschiedenen Bauarbeiten und Auf-/Abbauarbeiten. Du packst gern mit an und willst Teil eines starken Teams sein.",
     anforderungen: [
       "Handwerkliches Geschick & Lust auf körperliche Arbeit",
@@ -286,7 +286,7 @@ export function Karriere() {
                           </div>
                         </div>
                         <a
-                          href="mailto:info@bauunternehmen-haertl.de"
+                          href="mailto:info@wmbau.com"
                           onClick={(e) => e.stopPropagation()}
                           className="inline-flex items-center gap-2 bg-[#D94520] px-5 py-2.5 font-body text-xs font-semibold uppercase tracking-[0.12em] text-white transition-opacity hover:opacity-85"
                         >
@@ -313,23 +313,23 @@ export function Karriere() {
                 <p className="mt-3 font-body text-sm text-[#0A1628]/50 leading-relaxed">
                   Wir freuen uns jederzeit über Initiativbewerbungen qualifizierter Handwerker.
                   Schriftlich an:<br />
-                  <span className="text-[#0A1628]/70">Baugeschäft GmbH Georg Härtl · Martinsberg 6, 84149 Velden</span>
+                  <span className="text-[#0A1628]/70">WM Bau GmbH · Breitenloh 1, 84405 Dorfen</span>
                 </p>
               </div>
               <div className="flex flex-col gap-3">
                 <a
-                  href="mailto:info@bauunternehmen-haertl.de"
+                  href="mailto:info@wmbau.com"
                   className="inline-flex items-center gap-3 border border-[#D94520]/20 px-6 py-4 font-body text-sm text-[#0A1628] transition-all duration-200 hover:border-[#D94520] hover:text-[#D94520]"
                 >
                   <span className="text-[#D94520] text-base">✉</span>
-                  info@bauunternehmen-haertl.de
+                  info@wmbau.com
                 </a>
                 <a
-                  href="tel:+491707795316"
+                  href="tel:+4915158720108"
                   className="inline-flex items-center gap-3 border border-[#D94520]/20 px-6 py-4 font-body text-sm text-[#0A1628] transition-all duration-200 hover:border-[#D94520] hover:text-[#D94520]"
                 >
                   <span className="text-[#D94520] text-base">☎</span>
-                  0170 / 779 5316
+                  0151 58 72 01 08
                 </a>
               </div>
             </div>

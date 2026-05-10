@@ -31,17 +31,17 @@ const projects = [
     desc: "Neubau einer zweigruppigen Kindertagesstätte mit Außenanlage",
     location: "Erding",
     img: "/images/bild-kindergarten.jpg",
-    detail: "Im Auftrag der Gemeinde Erding errichtete Baugeschäft GmbH Georg Härtl eine moderne Kindertagesstätte mit zwei Gruppen, Technikraum und gestalteter Außenanlage. Das Gebäude erfüllt höchste energetische Anforderungen und überzeugt durch eine freundliche, funktionale Architektur. Alle Arbeiten wurden termingerecht und im vereinbarten Kostenrahmen abgeschlossen.",
+    detail: "Im Auftrag der Gemeinde Erding errichtete WM Bau GmbH eine moderne Kindertagesstätte mit zwei Gruppen, Technikraum und gestalteter Außenanlage. Das Gebäude erfüllt höchste energetische Anforderungen und überzeugt durch eine freundliche, funktionale Architektur. Alle Arbeiten wurden termingerecht und im vereinbarten Kostenrahmen abgeschlossen.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
     id: "02",
-    title: "Feuerwehrhaus Velden",
+    title: "Feuerwehrhaus Dorfen",
     category: "Öffentlicher Bau",
     desc: "Neubau des Feuerwehrgerätehauses mit Schulungsraum und Stellplätzen",
-    location: "Velden",
+    location: "Dorfen",
     img: "/images/bild-feuerwehr.jpg",
-    detail: "Für die Freiwillige Feuerwehr Velden realisierte Baugeschäft GmbH Georg Härtl einen modernen Neubau mit drei Fahrzeugstellplätzen, Umkleideräumen, Schulungsraum und Außenbereich. Konstruktion und Ausbau wurden vollständig in Eigenregie koordiniert – von der Planung bis zur schlüsselfertigen Übergabe.",
+    detail: "Für die Freiwillige Feuerwehr Dorfen realisierte WM Bau GmbH einen modernen Neubau mit drei Fahrzeugstellplätzen, Umkleideräumen, Schulungsraum und Außenbereich. Konstruktion und Ausbau wurden vollständig in Eigenregie koordiniert – von der Planung bis zur schlüsselfertigen Übergabe.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -51,7 +51,7 @@ const projects = [
     desc: "Neubau einer Gemeinschafts- und Veranstaltungshalle mit Bühne",
     location: "Taufkirchen / Vils",
     img: "/images/bild-mehrzweck.jpg",
-    detail: "In Taufkirchen an der Vils entstand eine großzügige Mehrzweckhalle für Veranstaltungen, Vereine und Gemeindezwecke. Baugeschäft GmbH Georg Härtl übernahm alle Rohbau- und Ausbauarbeiten. Besonderes Merkmal ist die flexible Raumaufteilung sowie die hochwertige Holz-Beton-Konstruktion der Dachkonstruktion.",
+    detail: "In Taufkirchen an der Vils entstand eine großzügige Mehrzweckhalle für Veranstaltungen, Vereine und Gemeindezwecke. WM Bau GmbH übernahm alle Rohbau- und Ausbauarbeiten. Besonderes Merkmal ist die flexible Raumaufteilung sowie die hochwertige Holz-Beton-Konstruktion der Dachkonstruktion.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     desc: "Schlüsselfertiger Neubau eines Einfamilienhauses mit Carport",
     location: "Dorfen",
     img: "/images/bild-wohnhaus.jpg",
-    detail: "Für eine Privatfamilie in Dorfen realisierte Baugeschäft GmbH Georg Härtl ein schlüsselfertiges Einfamilienhaus mit Keller, Carport und Gartengestaltung. Das klare, moderne Erscheinungsbild mit hochwertigen Materialien und durchdachter Grundrissplanung wurde in enger Zusammenarbeit mit dem Bauherrn entwickelt.",
+    detail: "Für eine Privatfamilie in Dorfen realisierte WM Bau GmbH ein schlüsselfertiges Einfamilienhaus mit Keller, Carport und Gartengestaltung. Das klare, moderne Erscheinungsbild mit hochwertigen Materialien und durchdachter Grundrissplanung wurde in enger Zusammenarbeit mit dem Bauherrn entwickelt.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -71,7 +71,7 @@ const projects = [
     desc: "Neubau einer Lager- und Betriebshalle mit Bürotrakt",
     location: "Walpertskirchen",
     img: "/images/bild-gewerbehalle.jpg",
-    detail: "Für ein regional ansässiges Unternehmen errichtete Baugeschäft GmbH Georg Härtl in Walpertskirchen eine Gewerbe- und Lagerhalle mit angeschlossenem Bürotrakt. Die Stahlkonstruktion bietet maximale Nutzflexibilität bei kurzer Bauzeit. Sämtliche Erschließungs- und Außenanlagenarbeiten wurden ebenfalls von Bauunternehmen Härtl übernommen.",
+    detail: "Für ein regional ansässiges Unternehmen errichtete WM Bau GmbH in Walpertskirchen eine Gewerbe- und Lagerhalle mit angeschlossenem Bürotrakt. Die Stahlkonstruktion bietet maximale Nutzflexibilität bei kurzer Bauzeit. Sämtliche Erschließungs- und Außenanlagenarbeiten wurden ebenfalls von WM Bau GmbH übernommen.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     desc: "Kernsanierung und Modernisierung eines denkmalgeschützten Bauernhofs",
     location: "Buch am Buchrain",
     img: "/images/bild-bauernhof.jpg",
-    detail: "In Buch am Buchrain sanierte Baugeschäft GmbH Georg Härtl einen historischen Bauernhof unter denkmalschutzrechtlichen Auflagen. Neue Fenster, Dämmung, Haustechnik und Fassade wurden behutsam integriert, ohne den traditionellen Charakter des Gebäudes zu beeinträchtigen. Ein anspruchsvolles Projekt, das Handwerkskunst und moderne Bautechnik vereint.",
+    detail: "In Buch am Buchrain sanierte WM Bau GmbH einen historischen Bauernhof unter denkmalschutzrechtlichen Auflagen. Neue Fenster, Dämmung, Haustechnik und Fassade wurden behutsam integriert, ohne den traditionellen Charakter des Gebäudes zu beeinträchtigen. Ein anspruchsvolles Projekt, das Handwerkskunst und moderne Bautechnik vereint.",
     images: [PLACEHOLDER, PLACEHOLDER, PLACEHOLDER],
   },
 ];
