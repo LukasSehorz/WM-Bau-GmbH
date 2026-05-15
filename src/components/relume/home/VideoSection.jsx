@@ -28,25 +28,7 @@ const keyFacts = [
 
 export function VideoSection() {
   const sectionRef = useRef(null);
-  const videoRef = useRef(null);
   const clipRef = useRef(null);
-
-  // ── Auto-play once when video is in view ─────────────────────────────
-  useEffect(() => {
-    const video = videoRef.current;
-    if (!video) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) return;
-        if (video.ended || (video.duration && video.currentTime >= video.duration - 0.05)) return;
-        video.play().catch(() => {});
-      },
-      { threshold: 0.35 }
-    );
-    observer.observe(video);
-    return () => observer.disconnect();
-  }, []);
 
   // ── Scroll-driven choreography ───────────────────────────────────────
   useEffect(() => {
@@ -195,12 +177,9 @@ export function VideoSection() {
           className="absolute inset-0"
           style={{ willChange: "clip-path", zIndex: 1 }}
         >
-          <video
-            ref={videoRef}
-            src="/videos/video2.mp4"
-            muted
-            playsInline
-            preload="auto"
+          <img
+            src="/images/zwei-bauarbeiter.jpg"
+            alt="Zwei Bauarbeiter mit Bauplänen"
             className="vs-video absolute inset-0 h-full w-full object-cover"
             style={{ willChange: "transform" }}
           />
